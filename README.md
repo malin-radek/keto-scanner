@@ -22,20 +22,7 @@ Skanujesz etykietę → aplikacja sprawdza skład → dostajesz ocenę ✅ / ⚠
 
 ### v1.0.53 (2026-06-02)
 
-- 🔒 Wskaźnik Nutri-Score na ekranie skanowania wymaga licencji — bez niej widoczny jako szary z kłódką
-
-### v1.0.52 (2026-06-02)
-
-- 🔒 Historia skanów i dziennik posiłków wymagają teraz licencji
-
-### v1.0.51 (2026-06-02)
-
-- 🔒 Edycja i tworzenie własnych grup składników wymaga licencji — wbudowane grupy pozostają widoczne dla wszystkich
-
-### v1.0.50 (2026-06-01)
-
-- 🔒 Tworzenie własnych profili wymaga teraz licencji — darmowa wersja pozwala korzystać z profili wbudowanych
-- 🔒 Klonowanie profili również wymaga licencji
+- poprawki błędów
 
 ### v1.0.49 (2026-05-31)
 
