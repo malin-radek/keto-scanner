@@ -14,11 +14,15 @@ Skanujesz etykietę → aplikacja sprawdza skład → dostajesz ocenę ✅ / ⚠
 
 ## 📦 Pobierz
 
-**[⬇️ Pobierz najnowszy APK — v1.0.65](https://github.com/malin-radek/keto-scanner/releases/tag/v1.0.65)**
+**[⬇️ Pobierz najnowszy APK — v1.0.66](https://github.com/malin-radek/keto-scanner/releases/tag/v1.0.66)**
 
 [📋 Wszystkie wydania →](https://github.com/malin-radek/keto-scanner/releases)
 
 ## 📋 Changelog
+
+### v1.0.53 (2026-06-02)
+
+- 🔒 Wskaźnik Nutri-Score na ekranie skanowania wymaga licencji — bez niej widoczny jako szary z kłódką
 
 ### v1.0.52 (2026-06-02)
 
@@ -38,11 +42,5 @@ Skanujesz etykietę → aplikacja sprawdza skład → dostajesz ocenę ✅ / ⚠
 - ✏️ Nowy edytor produktu — kliknij "Edytuj produkt" na ekranie wyniku, aby poprawić nazwę, wartości odżywcze i składniki
 - 🌐 Szukaj w sieci — edytor automatycznie wyszukuje dane w OpenFoodFacts i Spoonacular, aby uzupełnić brakujące informacje
 - 🔄 Zapisz i oceń ponownie — po edycji produkt jest od nowa oceniany względem Twojego profilu
-- 📝 Wypełnij ręcznie — wszystkie pola można edytować samodzielnie, gdy wyniki z sieci są niepełne
-
-### v1.0.48 (2026-05-30)
-
-- 🔑 Własny klucz Google Gemini AI — skonfiguruj darmowy klucz i korzystaj z AI bez błędów i przeciążeń
-- 🧭 Kreator konfiguracji AI krok po kroku — prosty przewodnik dla każdego, nawet bez znajomości technologii
-- ⚡ Większa stabilność i szybkość — własny klucz = szybsze działanie i brak limitów---
-_Ostatni build: 2026-06-01 01:00 · v1.0.65_
+- 📝 Wypełnij ręcznie — wszystkie pola można edytować samodzielnie, gdy wyniki z sieci są niepełne---
+_Ostatni build: 2026-06-01 01:05 · v1.0.66_
