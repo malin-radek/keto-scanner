@@ -59,5 +59,6 @@ Skanujesz etykietę → aplikacja sprawdza skład → dostajesz ocenę ✅ / ⚠
 - 📋 Log OCR domyślnie zwinięty — przycisk rozwijania panelu z szczegółami
 - 🔙 Back: najpierw wróć do "Skanuj", drugi raz dopiero wyjście
 - 💪 Wytrzymały parser JSON — radzi sobie z dziwnymi formatami odpowiedzi AI
-- 🎯 Nazwa produktu nie jest wymagana — dane wejdą do formularza nawet bez nazwy---
-_Ostatni build: 2026-06-01 00:51 · v1.0.64_
+- 🎯 Nazwa produktu nie jest wymagana — dane wejdą do formularza nawet bez nazwy
+---
+_Ostatni build: 2026-06-01 00:53 · v1.0.64_
