@@ -14,7 +14,7 @@ Skanujesz etykietę → aplikacja sprawdza skład → dostajesz ocenę ✅ / ⚠
 
 ## 📦 Pobierz
 
-**[⬇️ Pobierz najnowszy APK — v1.0.69](https://github.com/malin-radek/keto-scanner/releases/tag/v1.0.69)**
+**[⬇️ Pobierz najnowszy APK — v1.0.70](https://github.com/malin-radek/keto-scanner/releases/tag/v1.0.70)**
 
 [📋 Wszystkie wydania →](https://github.com/malin-radek/keto-scanner/releases)
 
@@ -43,4 +43,4 @@ Skanujesz etykietę → aplikacja sprawdza skład → dostajesz ocenę ✅ / ⚠
 - 🌐 Szukaj w sieci — edytor automatycznie wyszukuje dane w OpenFoodFacts i Spoonacular, aby uzupełnić brakujące informacje
 - 🔄 Zapisz i oceń ponownie — po edycji produkt jest od nowa oceniany względem Twojego profilu
 - 📝 Wypełnij ręcznie — wszystkie pola można edytować samodzielnie, gdy wyniki z sieci są niepełne---
-_Ostatni build: 2026-06-01 01:19 · v1.0.69_
+_Ostatni build: 2026-06-01 01:30 · v1.0.70_
