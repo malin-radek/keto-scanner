@@ -14,11 +14,23 @@ Skanujesz etykietę → aplikacja sprawdza skład → dostajesz ocenę ✅ / ⚠
 
 ## 📦 Pobierz
 
-**[⬇️ Pobierz najnowszy APK — v1.0.72](https://github.com/malin-radek/keto-scanner/releases/tag/v1.0.72)**
+**[⬇️ Pobierz najnowszy APK — v1.0.79](https://github.com/malin-radek/keto-scanner/releases/tag/v1.0.79)**
 
 [📋 Wszystkie wydania →](https://github.com/malin-radek/keto-scanner/releases)
 
 ## 📋 Changelog
+
+### v1.0.55 (2026-06-04)
+
+- ✨ Nowy asystent kulinarny Keto-Szef AI — Twój wbudowany kucharz w formie wygodnego czatu, który układa zdrowe keto-przepisy na podstawie Twoich ostatnich skanów!
+- 🔒 Funkcja Premium — Keto-Szef AI dostępny jest wyłącznie dla wspierających (Supporter), z możliwością łatwego odblokowania z poziomu czytelnej prezentacji korzyści.
+
+### v1.0.54 (2026-06-03)
+
+- 🔑 Obfuskacja kluczy — bezpieczne, kodowane przechowywanie ważnych sekretów i danych kryptograficznych
+- ⏰ Niezależny czas sieciowy — ochrona okresu próbnego (trial) przed próbami oszustwa i cofaniem zegara urządzenia
+- 📸 Optymalizacja pamięci aparatu — inteligentna redukcja rozdzielczości i kompresja zdjęć etykiet przed rozpoznaniem tekstu
+- 💾 Bezpieczna kopia bazy danych — zabezpiecenie ważnych danych i historii posiłków pacjenta z funkcją eksportu i przywracania danych dla Supporterów
 
 ### v1.0.53 (2026-06-02)
 
@@ -30,17 +42,5 @@ Skanujesz etykietę → aplikacja sprawdza skład → dostajesz ocenę ✅ / ⚠
 
 ### v1.0.51 (2026-06-02)
 
-- 🔒 Edycja i tworzenie własnych grup składników wymaga licencji — wbudowane grupy pozostają widoczne dla wszystkich
-
-### v1.0.50 (2026-06-01)
-
-- 🔒 Tworzenie własnych profili wymaga teraz licencji — darmowa wersja pozwala korzystać z profili wbudowanych
-- 🔒 Klonowanie profili również wymaga licencji
-
-### v1.0.49 (2026-05-31)
-
-- ✏️ Nowy edytor produktu — kliknij "Edytuj produkt" na ekranie wyniku, aby poprawić nazwę, wartości odżywcze i składniki
-- 🌐 Szukaj w sieci — edytor automatycznie wyszukuje dane w OpenFoodFacts i Spoonacular, aby uzupełnić brakujące informacje
-- 🔄 Zapisz i oceń ponownie — po edycji produkt jest od nowa oceniany względem Twojego profilu
-- 📝 Wypełnij ręcznie — wszystkie pola można edytować samodzielnie, gdy wyniki z sieci są niepełne---
-_Ostatni build: 2026-06-01 01:47 · v1.0.72_
+- 🔒 Edycja i tworzenie własnych grup składników wymaga licencji — wbudowane grupy pozostają widoczne dla wszystkich---
+_Ostatni build: 2026-06-01 23:57 · v1.0.79_
