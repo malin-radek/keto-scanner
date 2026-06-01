@@ -14,7 +14,7 @@ Skanujesz etykietę → aplikacja sprawdza skład → dostajesz ocenę ✅ / ⚠
 
 ## 📦 Pobierz
 
-**[⬇️ Pobierz najnowszy APK — v1.0.79](https://github.com/malin-radek/keto-scanner/releases/tag/v1.0.79)**
+**[⬇️ Pobierz najnowszy APK — v1.0.81](https://github.com/malin-radek/keto-scanner/releases/tag/v1.0.81)**
 
 [📋 Wszystkie wydania →](https://github.com/malin-radek/keto-scanner/releases)
 
@@ -43,4 +43,4 @@ Skanujesz etykietę → aplikacja sprawdza skład → dostajesz ocenę ✅ / ⚠
 ### v1.0.51 (2026-06-02)
 
 - 🔒 Edycja i tworzenie własnych grup składników wymaga licencji — wbudowane grupy pozostają widoczne dla wszystkich---
-_Ostatni build: 2026-06-01 23:57 · v1.0.79_
+_Ostatni build: 2026-06-02 00:46 · v1.0.81_
