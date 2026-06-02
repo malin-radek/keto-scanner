@@ -14,31 +14,36 @@ Skanujesz etykietę → aplikacja sprawdza skład → dostajesz ocenę ✅ / ⚠
 
 ## 📦 Pobierz
 
-**[⬇️ Pobierz najnowszy APK — v1.0.91](https://github.com/malin-radek/keto-scanner/releases/tag/v1.0.91)**
+**[⬇️ Pobierz najnowszy APK — v1.0.95](https://github.com/malin-radek/keto-scanner/releases/tag/v1.0.95)**
 
 [📋 Wszystkie wydania →](https://github.com/malin-radek/keto-scanner/releases)
 
 ## 📋 Changelog
 
+### v1.0.95 (2026-06-02)
+
+- 📖 Baza przepisów — Keto-Szef AI zwraca przepisy w strukturalnym formacie JSON, możesz je zapisać jednym kliknięciem
+- 💾 Przycisk "Zapisz przepis do bazy" — pod każdym przepisem od szefa pojawia się przycisk do zapisu w lokalnej bazie
+- 📚 Przeglądarka zapisanych przepisów — nowy ekran z pełnymi szczegółami: składniki, instrukcje krok po kroku i makro na porcję
+
+### v1.0.94 (2026-06-02)
+
+- 🔧 Poprawa zapisywania wyboru profili — własne profile nie znikają już po zamknięciu aplikacji
+
+### v1.0.92 (2026-06-02)
+
+- 🔄 Automatyczny fallback AI — jeśli Gemini zawiedzie, aplikacja automatycznie przełącza się na NVIDIA (bez utraty odpowiedzi)
+- ⭐ Gemini głównym dostawcą AI — gdy masz własny klucz Gemini, jest używany priorytetowo jako szybszy i stabilniejszy
+
+### v1.0.91 (2026-06-02)
+
+- 👨‍🍳 Keto-Szef AI naprawiony — teraz faktycznie odpowiada zamiast pisać "mały błąd"
+- 🎭 Szef ma teraz zabawną nazwę dopasowaną do Twojego profilu (Boczkowy Boss, Mięsny Młot, Roślinny Czarodziej...)
+- 🎯 Przepisy dopasowane do Twojego profilu — szef zna zasady diety i proponuje tylko zgodne potrawy
+- 🛒 Ręczny wybór produktów — kliknij "Wybierz produkty samodzielnie" i zaznacz co masz w lodówce
+- ⏰ Podpowiedzi dopasowane do pory dnia — śniadanie rano, obiad w południe, kolacja wieczorem
+
 ### v1.0.90 (2026-06-02)
 
-- 🍽️ Rozpoznawanie jedzenia działa teraz na każdym zdjęciu — nie tylko na talerzu; AI rozpozna pojedyncze owoce, przekąski i produkty w dowolnym otoczeniu
-
-### v1.0.59 (2026-06-02)
-
-- 🧭 Menu nawigacyjne (☰) — wygodny dostęp do wszystkich funkcji z każdego ekranu
-
-### v1.0.58 (2026-06-02)
-
-- 💡 Inteligentne podpowiedzi do zdjęć talerza — gdy AI nie rozpozna produktów, podpowiada co poprawić (oświetlenie, kąt, zbliżenie)
-
-### v1.0.57 (2026-06-02)
-
-- 👨‍🍳 Keto-Szef AI dostępny dla wszystkich — otwarcie asystenta kulinarnego
-- 🏷️ Zakładka "Moje etykiety" zmieniona na "Moje produkty" — bardziej intuicyjna nazwa
-- 📊 Tryb skanowania "Etykieta" zmieniony na "Produkt" — jaśniejsze oznaczenie
-
-### v1.0.55 (2026-06-04)
-
-- ✨ Nowy asystent kulinarny Keto-Szef AI — Twój wbudowany kucharz w formie wygodnego czatu, który układa zdrowe keto-przepisy na podstawie Twoich ostatnich skanów!---
-_Ostatni build: 2026-06-02 19:18 · v1.0.91_
+- 🍽️ Rozpoznawanie jedzenia działa teraz na każdym zdjęciu — nie tylko na talerzu; AI rozpozna pojedyncze owoce, przekąski i produkty w dowolnym otoczeniu---
+_Ostatni build: 2026-06-02 21:14 · v1.0.95_
