@@ -14,7 +14,7 @@ Skanujesz etykietę → aplikacja sprawdza skład → dostajesz ocenę ✅ / ⚠
 
 ## 📦 Pobierz
 
-**[⬇️ Pobierz najnowszy APK — v1.0.95](https://github.com/malin-radek/keto-scanner/releases/tag/v1.0.95)**
+**[⬇️ Pobierz najnowszy APK — v1.0.96](https://github.com/malin-radek/keto-scanner/releases/tag/v1.0.96)**
 
 [📋 Wszystkie wydania →](https://github.com/malin-radek/keto-scanner/releases)
 
@@ -46,4 +46,4 @@ Skanujesz etykietę → aplikacja sprawdza skład → dostajesz ocenę ✅ / ⚠
 ### v1.0.90 (2026-06-02)
 
 - 🍽️ Rozpoznawanie jedzenia działa teraz na każdym zdjęciu — nie tylko na talerzu; AI rozpozna pojedyncze owoce, przekąski i produkty w dowolnym otoczeniu---
-_Ostatni build: 2026-06-02 21:14 · v1.0.95_
+_Ostatni build: 2026-06-02 21:32 · v1.0.96_
