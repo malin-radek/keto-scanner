@@ -14,38 +14,35 @@ Skanujesz etykietę → aplikacja sprawdza skład → dostajesz ocenę ✅ / ⚠
 
 ## 📦 Pobierz
 
-**[⬇️ Pobierz najnowszy APK — v1.0.98](https://github.com/malin-radek/keto-scanner/releases/tag/v1.0.98)**
+**[⬇️ Pobierz najnowszy APK — v1.0.100](https://github.com/malin-radek/keto-scanner/releases/tag/v1.0.100)**
 
 [📋 Wszystkie wydania →](https://github.com/malin-radek/keto-scanner/releases)
 
 ## 📋 Changelog
 
+### v1.0.102 (2026-06-03)
+
+- ✨ Efektowne odkrywanie produktów podczas skanowania lodówki — ikony wyłaniają się z ciemności, a rozpoznane składniki ujawniają się losowo na ekranie zamiast nudnego paska postępu
+
+### v1.0.101 (2026-06-03)
+
+- 🖼️ Biblioteka ikon lodówkowych — 100 ręcznie rysowanych ikon produktów (nabiał, mięso, ryby, owoce, warzywa, napoje, sosy, dania gotowe, desery) do łatwego oznaczania kategorii w aplikacji
+- 🔍 Nowy komponent FridgeIcon — wystarczy podać nazwę ikony, a resztą zajmuje się system
+
+### v1.0.100 (2026-06-02)
+
+- 🔧 Poprawa skanowania lodówki — AI nie ucina już odpowiedzi przy dużej liczbie produktów, zwiększono limit tokenów
+- 🔧 Lepsze parsowanie JSON z AI — dodano obsługę tablic i rozszerzone naprawianie błędów składni
+- 🔄 Inteligentne ponawianie przy błędzie skanowania — nie tracisz już przeanalizowanych zdjęć; możesz kontynuować od nieudanego lub wziąć to co udało się rozpoznać
+
+### v1.0.99 (2026-06-02)
+
+- 📸 Skanowanie lodówki z użyciem aparatu — zrób do 5 zdjęć lodówki, AI rozpoznaje produkty w każdej z nich, scala wyniki i przekazuje Keto-Szefowi do ułożenia idealnego przepisu
+- 🧠 Uniwersalny pipeline skanowania — przygotowany do przyszłych zastosowań (np. inwentaryzacja zapasów) bez potrzeby przebudowy
+
 ### v1.0.96 (2026-06-02)
 
 - 🧊 Dwie kategorie akcji Szefa: "Coś z lodówki" (z Twoich produktów) i "Zaszalejmy" (kreatywne przepisy)
 - 🌍 Szef zna Twój kraj i proponuje lokalne składniki — nad Bałtykiem ryby, nad Morzem Śródziemnym owoce morza
-- 🎯 Jeśli poprosisz o konkretny składnik (np. krewetki), Szef robi przepis bez gadania — lokalność nie blokuje
-
-### v1.0.95 (2026-06-02)
-
-- 📖 Baza przepisów — Keto-Szef AI zwraca przepisy w strukturalnym formacie JSON, możesz je zapisać jednym kliknięciem
-- 💾 Przycisk "Zapisz przepis do bazy" — pod każdym przepisem od szefa pojawia się przycisk do zapisu w lokalnej bazie
-- 📚 Przeglądarka zapisanych przepisów — nowy ekran z pełnymi szczegółami: składniki, instrukcje krok po kroku i makro na porcję
-
-### v1.0.94 (2026-06-02)
-
-- 🔧 Poprawa zapisywania wyboru profili — własne profile nie znikają już po zamknięciu aplikacji
-
-### v1.0.92 (2026-06-02)
-
-- 🔄 Automatyczny fallback AI — jeśli Gemini zawiedzie, aplikacja automatycznie przełącza się na NVIDIA (bez utraty odpowiedzi)
-- ⭐ Gemini głównym dostawcą AI — gdy masz własny klucz Gemini, jest używany priorytetowo jako szybszy i stabilniejszy
-
-### v1.0.91 (2026-06-02)
-
-- 👨‍🍳 Keto-Szef AI naprawiony — teraz faktycznie odpowiada zamiast pisać "mały błąd"
-- 🎭 Szef ma teraz zabawną nazwę dopasowaną do Twojego profilu (Boczkowy Boss, Mięsny Młot, Roślinny Czarodziej...)
-- 🎯 Przepisy dopasowane do Twojego profilu — szef zna zasady diety i proponuje tylko zgodne potrawy
-- 🛒 Ręczny wybór produktów — kliknij "Wybierz produkty samodzielnie" i zaznacz co masz w lodówce
-- ⏰ Podpowiedzi dopasowane do pory dnia — śniadanie rano, obiad w południe, kolacja wieczorem---
-_Ostatni build: 2026-06-02 21:43 · v1.0.98_
+- 🎯 Jeśli poprosisz o konkretny składnik (np. krewetki), Szef robi przepis bez gadania — lokalność nie blokuje---
+_Ostatni build: 2026-06-03 00:17 · v1.0.100_
