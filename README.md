@@ -14,11 +14,17 @@ Skanujesz etykietę → aplikacja sprawdza skład → dostajesz ocenę ✅ / ⚠
 
 ## 📦 Pobierz
 
-**[⬇️ Pobierz najnowszy APK — v1.0.96](https://github.com/malin-radek/keto-scanner/releases/tag/v1.0.96)**
+**[⬇️ Pobierz najnowszy APK — v1.0.98](https://github.com/malin-radek/keto-scanner/releases/tag/v1.0.98)**
 
 [📋 Wszystkie wydania →](https://github.com/malin-radek/keto-scanner/releases)
 
 ## 📋 Changelog
+
+### v1.0.96 (2026-06-02)
+
+- 🧊 Dwie kategorie akcji Szefa: "Coś z lodówki" (z Twoich produktów) i "Zaszalejmy" (kreatywne przepisy)
+- 🌍 Szef zna Twój kraj i proponuje lokalne składniki — nad Bałtykiem ryby, nad Morzem Śródziemnym owoce morza
+- 🎯 Jeśli poprosisz o konkretny składnik (np. krewetki), Szef robi przepis bez gadania — lokalność nie blokuje
 
 ### v1.0.95 (2026-06-02)
 
@@ -41,9 +47,5 @@ Skanujesz etykietę → aplikacja sprawdza skład → dostajesz ocenę ✅ / ⚠
 - 🎭 Szef ma teraz zabawną nazwę dopasowaną do Twojego profilu (Boczkowy Boss, Mięsny Młot, Roślinny Czarodziej...)
 - 🎯 Przepisy dopasowane do Twojego profilu — szef zna zasady diety i proponuje tylko zgodne potrawy
 - 🛒 Ręczny wybór produktów — kliknij "Wybierz produkty samodzielnie" i zaznacz co masz w lodówce
-- ⏰ Podpowiedzi dopasowane do pory dnia — śniadanie rano, obiad w południe, kolacja wieczorem
-
-### v1.0.90 (2026-06-02)
-
-- 🍽️ Rozpoznawanie jedzenia działa teraz na każdym zdjęciu — nie tylko na talerzu; AI rozpozna pojedyncze owoce, przekąski i produkty w dowolnym otoczeniu---
-_Ostatni build: 2026-06-02 21:32 · v1.0.96_
+- ⏰ Podpowiedzi dopasowane do pory dnia — śniadanie rano, obiad w południe, kolacja wieczorem---
+_Ostatni build: 2026-06-02 21:43 · v1.0.98_
