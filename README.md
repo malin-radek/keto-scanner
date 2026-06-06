@@ -14,40 +14,32 @@ Skanujesz etykietę → aplikacja sprawdza skład → dostajesz ocenę ✅ / ⚠
 
 ## 📦 Pobierz
 
-**[⬇️ Pobierz najnowszy APK — v1.0.104](https://github.com/malin-radek/keto-scanner/releases/tag/v1.0.104)**
+**[⬇️ Pobierz najnowszy APK — v1.0.129](https://github.com/malin-radek/keto-scanner/releases/tag/v1.0.129)**
 
 [📋 Wszystkie wydania →](https://github.com/malin-radek/keto-scanner/releases)
 
 ## 📋 Changelog
 
-### v1.0.105 (2026-06-03)
+### v1.0.130 (2026-06-06)
 
-- 🍽️ Nowy edytor posiłku — po zrobieniu zdjęcia pokazuje się pełnoekranowy edytor z możliwością poprawienia wszystkich danych od AI
-- ✏️ Każdy składnik można edytować — nazwa, kcal, białko, tłuszcze, węglowodany, błonnik, cukry, składniki i opis
-- ➕ Dodawanie własnych składników przez tapnięcie na zdjęciu — wskaż palcem gdzie jest jedzenie, a aplikacja doda nową kropkę
-- 🔄 Ponowne rozpoznanie przez AI — wybierz inny model (Gemini 2.0 Flash, 2.5 Flash, ChatGPT, OpenRouter) i spróbuj ponownie bez wychodzenia z edytora
-- 📊 Podsumowanie makro na żywo — suma kalorii, węgli, białka i tłuszczu aktualizuje się automatycznie przy każdej zmianie
-- 📝 Edycja istniejących posiłków — z ekranu szczegółów posiłku możesz w każdej chwili ponownie rozpoznać lub poprawić składniki
+- 📅 Profil ciała: zamiast wieku podajesz datę urodzenia — aplikacja sama wylicza wiek, zawsze aktualny, bez konieczności ręcznej aktualizacji
 
-### v1.0.104 (2026-06-03)
+### v1.0.128 (2026-06-06)
 
-- 🔗 Własny model AI (tekst) w ustawieniach — podepnij ChatGPT, OpenRouter, NVIDIA NIM, Groq, OpenCode Zen lub HuggingFace jako dodatkowe źródło analizy etykiet, gdy Gemini nie poradzi sobie sam
-- 📷 Własny model AI (obraz) w ustawieniach — skonfiguruj ChatGPT Vision lub OpenRouter Vision do rozpoznawania etykiet ze zdjęć, zamiast wbudowanego Gemini
-- 🔄 Inteligentny fallback AI — jeśli Gemini nie jest skonfigurowane, aplikacja automatycznie używa Twojego własnego modelu jako głównego, a wbudowany Gemini jako zabezpieczenie
+- ℹ️ Dotknij dowolnego wskaźnika składu ciała (BMI, tkanka tłuszczowa, mięśnie, woda, itd.), aby zobaczyć wyczerpujący opis: co to jest, jak jest liczone, jakie są normy i dlaczego jest ważne
 
-### v1.0.103 (2026-06-03)
+### v1.0.127 (2026-06-06)
 
-- 📊 Nowy licznik zapytań AI w ustawieniach — widzisz ile z 1500 dziennych zapytań do Gemini zostało wykorzystane, z paskiem postępu i ostrzeżeniami zanim skończy się limit
-- 🚫 Automatyczne blokowanie zapytań po przekroczeniu limitu — AI przestaje wysyłać zapytania do Gemini gdy skończy się dzienny limit, zamiast zwracać nieczytelny błąd 429
+- 🧬 Naprawa liczenia składu ciała z wagi Xiaomi — wszystkie wartości (tkanka tłuszczowa, mięśnie, woda, kości, BMI, tłuszcz trzewny) są teraz zgodne z algorytmem Zepp Life / Mi Fit
+- 📊 Nowe wskaźniki: BMR (podstawowa przemiana materii), wiek metaboliczny i procent białka — pełen obraz składu ciała jak w profesjonalnych wagach
 
-### v1.0.101 (2026-06-03)
+### v1.0.126 (2026-06-06)
 
-- 🖼️ Biblioteka ikon lodówkowych — 100 ręcznie rysowanych ikon produktów (nabiał, mięso, ryby, owoce, warzywa, napoje, sosy, dania gotowe, desery) do łatwego oznaczania kategorii w aplikacji
-- 🔍 Nowy komponent FridgeIcon — wystarczy podać nazwę ikony, a resztą zajmuje się system
+- 🧬 Nowy ekran "Profil ciała" w menu — ustaw wzrost, wiek i płeć, a waga Xiaomi Mi Scale 2 wyliczy skład ciała (tkanka tłuszczowa, mięśnie, woda, kości, BMI)
+- 🔧 Naprawa wykrywania Xiaomi Mi Scale 2 przez Bluetooth — waga z nowszym firmware (kategoria 0x02/0x03) ponownie jest poprawnie rozpoznawana
+- 🔧 Naprawa pętli nawigacyjnej — ekran wagi nie pojawia się już wielokrotnie po wyjściu; każdy pomiar przekierowuje tylko raz
 
-### v1.0.100 (2026-06-02)
+### v1.0.124 (2026-06-06)
 
-- 🔧 Poprawa skanowania lodówki — AI nie ucina już odpowiedzi przy dużej liczbie produktów, zwiększono limit tokenów
-- 🔧 Lepsze parsowanie JSON z AI — dodano obsługę tablic i rozszerzone naprawianie błędów składni
-- 🔄 Inteligentne ponawianie przy błędzie skanowania — nie tracisz już przeanalizowanych zdjęć; możesz kontynuować od nieudanego lub wziąć to co udało się rozpoznać---
-_Ostatni build: 2026-06-03 18:52 · v1.0.104_
+- 🔧 Naprawa liczenia wartości odżywczych w dzienniku posiłków — suma kalorii i makroskładników uwzględnia teraz rzeczywistą wielkość porcji (servingSizeGrams), a nie wartości na 100g---
+_Ostatni build: 2026-06-06 22:27 · v1.0.129_
