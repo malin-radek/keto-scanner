@@ -14,11 +14,25 @@ Skanujesz etykietę → aplikacja sprawdza skład → dostajesz ocenę ✅ / ⚠
 
 ## 📦 Pobierz
 
-**[⬇️ Pobierz najnowszy APK — v1.0.129](https://github.com/malin-radek/keto-scanner/releases/tag/v1.0.129)**
+**[⬇️ Pobierz najnowszy APK — v1.0.140](https://github.com/malin-radek/keto-scanner/releases/tag/v1.0.140)**
 
 [📋 Wszystkie wydania →](https://github.com/malin-radek/keto-scanner/releases)
 
 ## 📋 Changelog
+
+### v1.0.139 (2026-06-07)
+
+- ✋ Ręczne ustawianie wagi na ekranie Waga — przesuwaj palcem w górę/dół na każdej cyfrze, aby wprowadzić wagę bez wagi Bluetooth
+- 📡 Skaner wagi Bluetooth działa tylko gdy ekran Waga jest otwarty — oszczędza baterię i nie szuka wagi w tle
+- 🗑️ Usuwanie konkretnego pomiaru wagi — w dzienniku posiłków i w szczegółach posiłku kliknij kosz, aby usunąć wybrane ważenie
+
+### v1.0.138 (2026-06-07)
+
+- 🔥 Nowy kalkulator TDEE w Profilu ciała — wybierz tryb życia, a aplikacja wyliczy Twoje dzienne zapotrzebowanie kaloryczne (Mifflin–St Jeor) z możliwością korekty o ±25%
+
+### v1.0.131 (2026-06-06)
+
+- 🔧 Szczegółowe logi diagnostyczne przy nieudanym rozpoznaniu posiłku — przycisk "Kopiuj curl" kopiuje 1:1 zapytanie wysłane do AI, a "Kopiuj odpowiedź API" kopiuje surową odpowiedź z serwera, aby łatwo znaleźć przyczynę błędu
 
 ### v1.0.130 (2026-06-06)
 
@@ -26,20 +40,5 @@ Skanujesz etykietę → aplikacja sprawdza skład → dostajesz ocenę ✅ / ⚠
 
 ### v1.0.128 (2026-06-06)
 
-- ℹ️ Dotknij dowolnego wskaźnika składu ciała (BMI, tkanka tłuszczowa, mięśnie, woda, itd.), aby zobaczyć wyczerpujący opis: co to jest, jak jest liczone, jakie są normy i dlaczego jest ważne
-
-### v1.0.127 (2026-06-06)
-
-- 🧬 Naprawa liczenia składu ciała z wagi Xiaomi — wszystkie wartości (tkanka tłuszczowa, mięśnie, woda, kości, BMI, tłuszcz trzewny) są teraz zgodne z algorytmem Zepp Life / Mi Fit
-- 📊 Nowe wskaźniki: BMR (podstawowa przemiana materii), wiek metaboliczny i procent białka — pełen obraz składu ciała jak w profesjonalnych wagach
-
-### v1.0.126 (2026-06-06)
-
-- 🧬 Nowy ekran "Profil ciała" w menu — ustaw wzrost, wiek i płeć, a waga Xiaomi Mi Scale 2 wyliczy skład ciała (tkanka tłuszczowa, mięśnie, woda, kości, BMI)
-- 🔧 Naprawa wykrywania Xiaomi Mi Scale 2 przez Bluetooth — waga z nowszym firmware (kategoria 0x02/0x03) ponownie jest poprawnie rozpoznawana
-- 🔧 Naprawa pętli nawigacyjnej — ekran wagi nie pojawia się już wielokrotnie po wyjściu; każdy pomiar przekierowuje tylko raz
-
-### v1.0.124 (2026-06-06)
-
-- 🔧 Naprawa liczenia wartości odżywczych w dzienniku posiłków — suma kalorii i makroskładników uwzględnia teraz rzeczywistą wielkość porcji (servingSizeGrams), a nie wartości na 100g---
-_Ostatni build: 2026-06-06 22:27 · v1.0.129_
+- ℹ️ Dotknij dowolnego wskaźnika składu ciała (BMI, tkanka tłuszczowa, mięśnie, woda, itd.), aby zobaczyć wyczerpujący opis: co to jest, jak jest liczone, jakie są normy i dlaczego jest ważne---
+_Ostatni build: 2026-06-07 01:42 · v1.0.140_
