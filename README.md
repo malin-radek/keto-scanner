@@ -14,7 +14,7 @@ Skanujesz etykietę → aplikacja sprawdza skład → dostajesz ocenę ✅ / ⚠
 
 ## 📦 Pobierz
 
-**[⬇️ Pobierz najnowszy APK — v1.0.140](https://github.com/malin-radek/keto-scanner/releases/tag/v1.0.140)**
+**[⬇️ Pobierz najnowszy APK — v1.0.141](https://github.com/malin-radek/keto-scanner/releases/tag/v1.0.141)**
 
 [📋 Wszystkie wydania →](https://github.com/malin-radek/keto-scanner/releases)
 
@@ -41,4 +41,4 @@ Skanujesz etykietę → aplikacja sprawdza skład → dostajesz ocenę ✅ / ⚠
 ### v1.0.128 (2026-06-06)
 
 - ℹ️ Dotknij dowolnego wskaźnika składu ciała (BMI, tkanka tłuszczowa, mięśnie, woda, itd.), aby zobaczyć wyczerpujący opis: co to jest, jak jest liczone, jakie są normy i dlaczego jest ważne---
-_Ostatni build: 2026-06-07 01:42 · v1.0.140_
+_Ostatni build: 2026-06-07 10:34 · v1.0.141_
