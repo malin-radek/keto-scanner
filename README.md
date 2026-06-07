@@ -20,7 +20,7 @@ Skanujesz etykietę → aplikacja sprawdza skład → dostajesz ocenę ✅ / ⚠
 
 ## 📋 Changelog
 
-### v1.1.0 (2026-06-08)
+### v1.0.155 (2026-06-08)
 
 - 📅 Wybór dat w statystykach za pomocą natywnego kalendarza — tapnij na datę początkową lub końcową, aby otworzyć kalendarz i wybrać dowolny zakres bez ręcznego wpisywania
 - 🔍 Większe etykiety na wykresach — wartości na osiach i oznaczenia min/max są teraz czytelniejsze dzięki większej czcionce
