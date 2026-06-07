@@ -14,33 +14,30 @@ Skanujesz etykietę → aplikacja sprawdza skład → dostajesz ocenę ✅ / ⚠
 
 ## 📦 Pobierz
 
-**[⬇️ Pobierz najnowszy APK — v1.0.143](https://github.com/malin-radek/keto-scanner/releases/tag/v1.0.143)**
+**[⬇️ Pobierz najnowszy APK — v1.0.148](https://github.com/malin-radek/keto-scanner/releases/tag/v1.0.148)**
 
 [📋 Wszystkie wydania →](https://github.com/malin-radek/keto-scanner/releases)
 
 ## 📋 Changelog
 
-### v1.0.142 (2026-06-07)
+### v1.0.149 (2026-06-07)
 
-- 🔥 Nowy wykres kalorii w dzienniku — poziomy pasek pokazuje ile kcal zjadłeś względem dziennego zapotrzebowania (TDEE) z zaznaczonymi strefami: odchudzanie, powolne odchudzanie i utrzymanie wagi
-- 📊 5-stopniowa skala stanu kalorii — w jednym rzucie oka widzisz czy jesteś w idealnym deficycie na powolne chudnięcie (✅), czy musisz jeszcze zjeść (🔴)
-- 📋 Wartości odżywcze dnia w jednej linii — kcal, tłuszcz, białko i węglowodany w zwartym podsumowaniu pod wykresami
+- 🧠 Tekstowe AI (analiza e-sklepów) też sprawdza które modele są dostępne — pomija przeciążonego Geminiego (429) i niedziałające API, automatycznie przełącza się na działającego providera bez marnowania czasu
 
-### v1.0.139 (2026-06-07)
+### v1.0.148 (2026-06-07)
 
-- ✋ Ręczne ustawianie wagi na ekranie Waga — przesuwaj palcem w górę/dół na każdej cyfrze, aby wprowadzić wagę bez wagi Bluetooth
-- 📡 Skaner wagi Bluetooth działa tylko gdy ekran Waga jest otwarty — oszczędza baterię i nie szuka wagi w tle
-- 🗑️ Usuwanie konkretnego pomiaru wagi — w dzienniku posiłków i w szczegółach posiłku kliknij kosz, aby usunąć wybrane ważenie
+- 🧠 Inteligentny wybór modelu AI — VisionAI automatycznie wykrywa które modele są aktualnie dostępne (np. Gemini nieprzeciążony) i przełącza się między nimi, zanim spróbuje użyć przeciążonego
 
-### v1.0.138 (2026-06-07)
+### v1.0.147 (2026-06-07)
 
-- 🔥 Nowy kalkulator TDEE w Profilu ciała — wybierz tryb życia, a aplikacja wyliczy Twoje dzienne zapotrzebowanie kaloryczne (Mifflin–St Jeor) z możliwością korekty o ±25%
+- 📊 Nowy suwak węglowodanów w kreatorze posiłków — intuicyjne przeciąganie zamiast ręcznego wpisywania; widać od razu % dziennego limitu
 
-### v1.0.131 (2026-06-06)
+### v1.0.146 (2026-06-07)
 
-- 🔧 Szczegółowe logi diagnostyczne przy nieudanym rozpoznaniu posiłku — przycisk "Kopiuj curl" kopiuje 1:1 zapytanie wysłane do AI, a "Kopiuj odpowiedź API" kopiuje surową odpowiedź z serwera, aby łatwo znaleźć przyczynę błędu
+- 📅 Keto-Szef AI — przycisk "Dodaj do kalendarza" przy każdym przepisie; jednym kliknięciem zapisujesz danie do dziennika posiłków z pełnym makro na 1 porcję
 
-### v1.0.130 (2026-06-06)
+### v1.0.145 (2026-06-07)
 
-- 📅 Profil ciała: zamiast wieku podajesz datę urodzenia — aplikacja sama wylicza wiek, zawsze aktualny, bez konieczności ręcznej aktualizacji---
-_Ostatni build: 2026-06-07 10:44 · v1.0.143_
+- 🧠 Keto-Szef AI — lista produktów z lodówki trafia do promptu TYLKO gdy wybierzesz akcję "Ugotuj coś z moich produktów"; przy zwykłych pytaniach Szef nie zakłada że masz konkretne składniki
+- 📋 Profile dietetyczne — AI widzi teraz pełną listę konkretnych składników dla każdej reguły (np. "Unikaj orzechów: migdał, orzech włoski, nerkowiec...") zamiast ID grup, co radykalnie poprawia rozumienie profilu przez model---
+_Ostatni build: 2026-06-07 20:29 · v1.0.148_
