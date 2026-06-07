@@ -14,11 +14,18 @@ Skanujesz etykietę → aplikacja sprawdza skład → dostajesz ocenę ✅ / ⚠
 
 ## 📦 Pobierz
 
-**[⬇️ Pobierz najnowszy APK — v1.0.148](https://github.com/malin-radek/keto-scanner/releases/tag/v1.0.148)**
+**[⬇️ Pobierz najnowszy APK — v1.0.150](https://github.com/malin-radek/keto-scanner/releases/tag/v1.0.150)**
 
 [📋 Wszystkie wydania →](https://github.com/malin-radek/keto-scanner/releases)
 
 ## 📋 Changelog
+
+### v1.0.150 (2026-06-07)
+
+- 🧊 Nowy ekran wyników skanowania lodówki — zdjęcie z ponumerowanymi punktami dla każdego produktu, z możliwością przybliżania i przesuwania; lista produktów do edycji (nazwa, ilość, kategoria, stan)
+- 🔢 Numerowane kropki na zdjęciach posiłków — każdy wykryty składnik ma wyraźny numer, a pod zdjęciem lista z tymi samymi numerami do łatwej edycji
+- 💾 Skan lodówki zapisywany w bazie z timestampem — tak jak posiłki w kalendarzu, możesz w każdej chwili wrócić do ostatniego skanu
+- 👨‍🍳 Keto-Szef AI korzysta ze skanu lodówki — "obiad z lodówki" automatycznie sprawdza dzisiejszy skan, a jeśli brak — wczorajszy. Jeśli skan jest starszy, Szef pyta czy użyć czy zeskanować od nowa
 
 ### v1.0.149 (2026-06-07)
 
@@ -34,10 +41,5 @@ Skanujesz etykietę → aplikacja sprawdza skład → dostajesz ocenę ✅ / ⚠
 
 ### v1.0.146 (2026-06-07)
 
-- 📅 Keto-Szef AI — przycisk "Dodaj do kalendarza" przy każdym przepisie; jednym kliknięciem zapisujesz danie do dziennika posiłków z pełnym makro na 1 porcję
-
-### v1.0.145 (2026-06-07)
-
-- 🧠 Keto-Szef AI — lista produktów z lodówki trafia do promptu TYLKO gdy wybierzesz akcję "Ugotuj coś z moich produktów"; przy zwykłych pytaniach Szef nie zakłada że masz konkretne składniki
-- 📋 Profile dietetyczne — AI widzi teraz pełną listę konkretnych składników dla każdej reguły (np. "Unikaj orzechów: migdał, orzech włoski, nerkowiec...") zamiast ID grup, co radykalnie poprawia rozumienie profilu przez model---
-_Ostatni build: 2026-06-07 20:29 · v1.0.148_
+- 📅 Keto-Szef AI — przycisk "Dodaj do kalendarza" przy każdym przepisie; jednym kliknięciem zapisujesz danie do dziennika posiłków z pełnym makro na 1 porcję---
+_Ostatni build: 2026-06-07 22:16 · v1.0.150_
