@@ -14,11 +14,17 @@ Skanujesz etykietę → aplikacja sprawdza skład → dostajesz ocenę ✅ / ⚠
 
 ## 📦 Pobierz
 
-**[⬇️ Pobierz najnowszy APK — v1.0.141](https://github.com/malin-radek/keto-scanner/releases/tag/v1.0.141)**
+**[⬇️ Pobierz najnowszy APK — v1.0.143](https://github.com/malin-radek/keto-scanner/releases/tag/v1.0.143)**
 
 [📋 Wszystkie wydania →](https://github.com/malin-radek/keto-scanner/releases)
 
 ## 📋 Changelog
+
+### v1.0.142 (2026-06-07)
+
+- 🔥 Nowy wykres kalorii w dzienniku — poziomy pasek pokazuje ile kcal zjadłeś względem dziennego zapotrzebowania (TDEE) z zaznaczonymi strefami: odchudzanie, powolne odchudzanie i utrzymanie wagi
+- 📊 5-stopniowa skala stanu kalorii — w jednym rzucie oka widzisz czy jesteś w idealnym deficycie na powolne chudnięcie (✅), czy musisz jeszcze zjeść (🔴)
+- 📋 Wartości odżywcze dnia w jednej linii — kcal, tłuszcz, białko i węglowodany w zwartym podsumowaniu pod wykresami
 
 ### v1.0.139 (2026-06-07)
 
@@ -36,9 +42,5 @@ Skanujesz etykietę → aplikacja sprawdza skład → dostajesz ocenę ✅ / ⚠
 
 ### v1.0.130 (2026-06-06)
 
-- 📅 Profil ciała: zamiast wieku podajesz datę urodzenia — aplikacja sama wylicza wiek, zawsze aktualny, bez konieczności ręcznej aktualizacji
-
-### v1.0.128 (2026-06-06)
-
-- ℹ️ Dotknij dowolnego wskaźnika składu ciała (BMI, tkanka tłuszczowa, mięśnie, woda, itd.), aby zobaczyć wyczerpujący opis: co to jest, jak jest liczone, jakie są normy i dlaczego jest ważne---
-_Ostatni build: 2026-06-07 10:34 · v1.0.141_
+- 📅 Profil ciała: zamiast wieku podajesz datę urodzenia — aplikacja sama wylicza wiek, zawsze aktualny, bez konieczności ręcznej aktualizacji---
+_Ostatni build: 2026-06-07 10:44 · v1.0.143_
