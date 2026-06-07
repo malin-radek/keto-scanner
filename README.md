@@ -14,11 +14,15 @@ Skanujesz etykietę → aplikacja sprawdza skład → dostajesz ocenę ✅ / ⚠
 
 ## 📦 Pobierz
 
-**[⬇️ Pobierz najnowszy APK — v1.0.150](https://github.com/malin-radek/keto-scanner/releases/tag/v1.0.150)**
+**[⬇️ Pobierz najnowszy APK — v1.0.151](https://github.com/malin-radek/keto-scanner/releases/tag/v1.0.151)**
 
 [📋 Wszystkie wydania →](https://github.com/malin-radek/keto-scanner/releases)
 
 ## 📋 Changelog
+
+### v1.0.151 (2026-06-07)
+
+- 👆 Klikalne kropki na zdjęciu posiłku — tapnij w numer na zdjęciu, a lista przewinie się do odpowiedniego składnika i podświetli go na żółto
 
 ### v1.0.150 (2026-06-07)
 
@@ -37,9 +41,5 @@ Skanujesz etykietę → aplikacja sprawdza skład → dostajesz ocenę ✅ / ⚠
 
 ### v1.0.147 (2026-06-07)
 
-- 📊 Nowy suwak węglowodanów w kreatorze posiłków — intuicyjne przeciąganie zamiast ręcznego wpisywania; widać od razu % dziennego limitu
-
-### v1.0.146 (2026-06-07)
-
-- 📅 Keto-Szef AI — przycisk "Dodaj do kalendarza" przy każdym przepisie; jednym kliknięciem zapisujesz danie do dziennika posiłków z pełnym makro na 1 porcję---
-_Ostatni build: 2026-06-07 22:16 · v1.0.150_
+- 📊 Nowy suwak węglowodanów w kreatorze posiłków — intuicyjne przeciąganie zamiast ręcznego wpisywania; widać od razu % dziennego limitu---
+_Ostatni build: 2026-06-07 22:34 · v1.0.151_
