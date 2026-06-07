@@ -14,11 +14,23 @@ Skanujesz etykietę → aplikacja sprawdza skład → dostajesz ocenę ✅ / ⚠
 
 ## 📦 Pobierz
 
-**[⬇️ Pobierz najnowszy APK — v1.0.154](https://github.com/malin-radek/keto-scanner/releases/tag/v1.0.154)**
+**[⬇️ Pobierz najnowszy APK — v1.0.155](https://github.com/malin-radek/keto-scanner/releases/tag/v1.0.155)**
 
 [📋 Wszystkie wydania →](https://github.com/malin-radek/keto-scanner/releases)
 
 ## 📋 Changelog
+
+### v1.1.0 (2026-06-08)
+
+- 📅 Wybór dat w statystykach za pomocą natywnego kalendarza — tapnij na datę początkową lub końcową, aby otworzyć kalendarz i wybrać dowolny zakres bez ręcznego wpisywania
+- 🔍 Większe etykiety na wykresach — wartości na osiach i oznaczenia min/max są teraz czytelniejsze dzięki większej czcionce
+
+### v1.0.158 (2026-06-08)
+
+- 🎯 Precyzyjne ustawianie wagi — dotknij ▲/▼, aby zmieniać cyfry z dokładnością 0.1 kg; każde kliknięcie to wyraźny "tik" haptyczny i sprężynowe drżenie cyfry, jak pokrętło celownika snajperskiego
+- 👆 Strzałki ▲/▼ na każdej cyfrze — tapnij, by zmienić wagę o jeden krok, bez imprezy z przesuwaniem
+- 📳 Haptyczne sprzężenie — każde przestawienie cyfry czuć w palcach (Light impact), dając pewność że zmiana została zarejestrowana
+- 🎯 Drżenie celownika — cyfra delikatnie drży w osi X i skaluje się po każdej zmianie, imitując mechaniczny przeskok pokrętła
 
 ### v1.0.157 (2026-06-08)
 
@@ -45,16 +57,5 @@ Skanujesz etykietę → aplikacja sprawdza skład → dostajesz ocenę ✅ / ⚠
 - 🔥 Pasek kalorii zintegrowany z oceną poziomu — badge "Dobre chudnięcie" / "Niedojadanie" wyświetla się bezpośrednio przy pasku, oszczędzając miejsce
 - 📐 Wszystkie wykresy w jednej zwartej karcie — zamiast rozbijać na osobne sekcje, makro i kalorie są obok siebie, czytelne na pierwszy rzut oka
 - 🔧 Pasek kalorii działa dla każdego dnia — nawet jeśli nie masz zapisanego TDEE z pomiaru, aplikacja wylicza je z profilu ciała (wzrost, wiek, płeć, aktywność) i ostatniej wagi
-- 📈 Trend wagi w dzienniku — przy każdym pomiarze widzisz strzałkę ▲/▼ pokazującą zmianę względem poprzedniego ważenia, od razu wiesz czy waga idzie w dobrym kierunku
-
-### v1.0.151 (2026-06-07)
-
-- 👆 Klikalne kropki na zdjęciu posiłku — tapnij w numer na zdjęciu, a lista przewinie się do odpowiedniego składnika i podświetli go na żółto
-
-### v1.0.150 (2026-06-07)
-
-- 🧊 Nowy ekran wyników skanowania lodówki — zdjęcie z ponumerowanymi punktami dla każdego produktu, z możliwością przybliżania i przesuwania; lista produktów do edycji (nazwa, ilość, kategoria, stan)
-- 🔢 Numerowane kropki na zdjęciach posiłków — każdy wykryty składnik ma wyraźny numer, a pod zdjęciem lista z tymi samymi numerami do łatwej edycji
-- 💾 Skan lodówki zapisywany w bazie z timestampem — tak jak posiłki w kalendarzu, możesz w każdej chwili wrócić do ostatniego skanu
-- 👨‍🍳 Keto-Szef AI korzysta ze skanu lodówki — "obiad z lodówki" automatycznie sprawdza dzisiejszy skan, a jeśli brak — wczorajszy. Jeśli skan jest starszy, Szef pyta czy użyć czy zeskanować od nowa---
-_Ostatni build: 2026-06-08 00:36 · v1.0.154_
+- 📈 Trend wagi w dzienniku — przy każdym pomiarze widzisz strzałkę ▲/▼ pokazującą zmianę względem poprzedniego ważenia, od razu wiesz czy waga idzie w dobrym kierunku---
+_Ostatni build: 2026-06-08 00:58 · v1.0.155_
