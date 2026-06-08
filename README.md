@@ -14,7 +14,7 @@ Skanujesz etykietę → aplikacja sprawdza skład → dostajesz ocenę ✅ / ⚠
 
 ## 📦 Pobierz
 
-**[⬇️ Pobierz najnowszy APK — v1.3.1](https://github.com/malin-radek/keto-scanner/releases/tag/v1.3.1)**
+**[⬇️ Pobierz najnowszy APK — v1.3.3](https://github.com/malin-radek/keto-scanner/releases/tag/v1.3.3)**
 
 [📋 Wszystkie wydania →](https://github.com/malin-radek/keto-scanner/releases)
 
@@ -41,4 +41,4 @@ Skanujesz etykietę → aplikacja sprawdza skład → dostajesz ocenę ✅ / ⚠
 ### v1.1.2 (2026-06-09)
 
 - 🔧 Połączenie z bazą danych nie ginie już po długim przebywaniu w tle — zapis posiłków, wagi i innych danych działa bez restartu aplikacji---
-_Ostatni build: 2026-06-09 00:57 · v1.3.1_
+_Ostatni build: 2026-06-09 01:09 · v1.3.3_
