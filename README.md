@@ -14,48 +14,31 @@ Skanujesz etykietę → aplikacja sprawdza skład → dostajesz ocenę ✅ / ⚠
 
 ## 📦 Pobierz
 
-**[⬇️ Pobierz najnowszy APK — v1.0.155](https://github.com/malin-radek/keto-scanner/releases/tag/v1.0.155)**
+**[⬇️ Pobierz najnowszy APK — v1.3.1](https://github.com/malin-radek/keto-scanner/releases/tag/v1.3.1)**
 
 [📋 Wszystkie wydania →](https://github.com/malin-radek/keto-scanner/releases)
 
 ## 📋 Changelog
 
-### v1.1.0 (2026-06-08)
+### v1.4.0 (2026-06-09)
 
-- 📅 Wybór dat w statystykach za pomocą natywnego kalendarza — tapnij na datę początkową lub końcową, aby otworzyć kalendarz i wybrać dowolny zakres bez ręcznego wpisywania
-- 🔍 Większe etykiety na wykresach — wartości na osiach i oznaczenia min/max są teraz czytelniejsze dzięki większej czcionce
+- 💬 Przycisk opinii dla testerów — pływający zielony przycisk dostępny na każdym ekranie; po naciśnięciu wykonuje zrzut ekranu i otwiera formularz do wysłania opisu błędu lub uwagi wraz ze zrzutem i wersją aplikacji bezpośrednio na adres dewelopera
 
-### v1.0.158 (2026-06-08)
+### v1.3.1 (2026-06-09)
 
-- 🎯 Precyzyjne ustawianie wagi — dotknij ▲/▼, aby zmieniać cyfry z dokładnością 0.1 kg; każde kliknięcie to wyraźny "tik" haptyczny i sprężynowe drżenie cyfry, jak pokrętło celownika snajperskiego
-- 👆 Strzałki ▲/▼ na każdej cyfrze — tapnij, by zmienić wagę o jeden krok, bez imprezy z przesuwaniem
-- 📳 Haptyczne sprzężenie — każde przestawienie cyfry czuć w palcach (Light impact), dając pewność że zmiana została zarejestrowana
-- 🎯 Drżenie celownika — cyfra delikatnie drży w osi X i skaluje się po każdej zmianie, imitując mechaniczny przeskok pokrętła
+- ℹ️ Nowy ekran "O aplikacji" w menu — zobacz kod QR, link do repozytorium na GitHub i pełną historię zmian
 
-### v1.0.157 (2026-06-08)
+### v1.3.0 (2026-06-09)
 
-- 📊 Firebase Analytics — automatyczne zbieranie statystyk: ile osób korzysta z aplikacji, które ekrany odwiedzają i jakie akcje wykonują (skanowanie kodu, OCR, ręczne wyszukiwanie, zapis posiłku, pomiar wagi, Keto-Szef AI, skan lodówki)
-- 1.0.156
-- 2026-06-07
-- 📊 Nowy ekran statystyk — kliknij w panel wagi, wartości odżywczych lub podsumowania dnia w przeglądzie dnia, aby zobaczyć szczegółowe wykresy
-- ⚖️ Wykres wagi — liniowy wykres pomiarów wagi z zaznaczonym min/max
-- 🥗 Wykres makroskładników — dzienne ilości tłuszczu, białka i węgli na jednym wykresie
-- 🔥 Wykres spożycia kalorii — dzienne kalorie z linią referencyjną TDEE
-- 🧬 Wykres składu ciała — BMI, tkanka tłuszczowa, LBM, mięśnie, woda, kości, tłuszcz trzewny, BMR, wiek metaboliczny, białko
-- 📅 Zakres dat z szybkimi presetami (7/14/30/90 dni) i ręczną edycją dat od–do
-- 📉 Wszystkie wykresy mają przerywane linie min/max oraz legendę
+- 🏷️ Badge oceny na infografice posiłku — każdy składnik ma teraz kolorową kropkę i etykietę (KETO GREEN, DOBRY, OSTROŻNIE, NIE PASUJE) pokazującą jak bardzo pasuje do wybranych profili dietetycznych
+- 📊 Średnia ocena całego posiłku — na dole infografiki podsumowanie z emoji i ogólnym wynikiem w skali 0–100
 
-### v1.0.155 (2026-06-07)
+### v1.2.0 (2026-06-09)
 
-- 📅 Panel skanu lodówki w przeglądzie dnia — podsumowanie zawartości lodówki widoczne w dzienniku obok posiłków i pomiarów wagi
-- 🔵 Dzień ma dane nawet bez posiłków — kalendarz pokazuje kropkę gdy zrobiłeś pomiar wagi lub skan lodówki, a przegląd dnia wyświetla wszystkie zebrane informacje
+- 📤 Udostępnianie posiłków jako profesjonalnej infografiki — przytrzymaj posiłek w dzienniku, wybierz "Udostępnij jako grafikę", a aplikacja wygeneruje estetyczną infografikę ze zdjęciem, składnikami i wartościami odżywczymi, którą możesz udostępnić przez standardowy arkusz systemowy
+- 📋 Duplikowanie posiłków — przytrzymaj posiłek w dzienniku, aby go zduplikować jako obecne danie lub wybrać dowolną datę i godzinę
 
-### v1.0.154 (2026-06-07)
+### v1.1.2 (2026-06-09)
 
-- 📊 Przebudowa wykresów w dzienniku posiłków — trzy kompaktowe paski postępu dla tłuszczu, białka i węgli pokazują dokładnie ile gramów zjadłeś względem dziennego celu
-- 📉 Paski makro zmieniają kolor — zielony = w zakresie celu, pomarańczowy = poniżej, czerwony = powyżej; linie na paskach wskazują dolną i górną granicę celu
-- 🔥 Pasek kalorii zintegrowany z oceną poziomu — badge "Dobre chudnięcie" / "Niedojadanie" wyświetla się bezpośrednio przy pasku, oszczędzając miejsce
-- 📐 Wszystkie wykresy w jednej zwartej karcie — zamiast rozbijać na osobne sekcje, makro i kalorie są obok siebie, czytelne na pierwszy rzut oka
-- 🔧 Pasek kalorii działa dla każdego dnia — nawet jeśli nie masz zapisanego TDEE z pomiaru, aplikacja wylicza je z profilu ciała (wzrost, wiek, płeć, aktywność) i ostatniej wagi
-- 📈 Trend wagi w dzienniku — przy każdym pomiarze widzisz strzałkę ▲/▼ pokazującą zmianę względem poprzedniego ważenia, od razu wiesz czy waga idzie w dobrym kierunku---
-_Ostatni build: 2026-06-08 00:58 · v1.0.155_
+- 🔧 Połączenie z bazą danych nie ginie już po długim przebywaniu w tle — zapis posiłków, wagi i innych danych działa bez restartu aplikacji---
+_Ostatni build: 2026-06-09 00:57 · v1.3.1_
