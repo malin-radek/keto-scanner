@@ -14,32 +14,44 @@ Skanujesz etykietę → aplikacja sprawdza skład → dostajesz ocenę ✅ / ⚠
 
 ## 📦 Pobierz
 
-**[⬇️ Pobierz najnowszy APK — v1.4.2](https://github.com/malin-radek/keto-scanner/releases/tag/v1.4.2)**
+**[⬇️ Pobierz najnowszy APK — v1.4.7](https://github.com/malin-radek/keto-scanner/releases/tag/v1.4.7)**
 
 [📋 Wszystkie wydania →](https://github.com/malin-radek/keto-scanner/releases)
 
 ## 📋 Changelog
 
-### v1.4.1 (2026-06-09)
+### v1.5.0 (2026-06-10)
 
-- 🍽️ Nowy przycisk "Utwórz posiłek" na ekranie wyniku skanowania — jednym kliknięciem przenosisz dane produktu do dziennika posiłków, gdzie możesz zmienić gramaturę i inne wartości
+- 🧊 Przebudowa skanowania lodówki — zdjęcia zapisują się NATYCHMIAST po kliknięciu "Gotowe", bez czekania na analizę AI; nawet jeśli AI jest niedostępne, aplikacja działa w pełni
+- 🧊 Analiza AI jest teraz OPCJONALNA — możesz dodać produkty ręcznie, bez używania VisionAI; przycisk "Analizuj przez AI" pojawia się gdy lista produktów jest pusta
+- 🧊 Automatyczny zapis draftu — zdjęcia lodówki są automatycznie zapisywane w bazie zaraz po zrobieniu, więc nic nie ginie nawet jeśli wyjdziesz z ekranu
+- 🧊 Nowy ekran wyniku działa w pełni bez AI — możesz dodać, edytować i zapisać produkty bez uruchamiania rozpoznawania obrazu
 
-### v1.4.0 (2026-06-09)
+### v1.4.6 (2026-06-10)
 
-- 💬 Przycisk opinii dla testerów — pływający zielony przycisk dostępny na każdym ekranie; po naciśnięciu wykonuje zrzut ekranu i otwiera formularz do wysłania opisu błędu lub uwagi wraz ze zrzutem i wersją aplikacji bezpośrednio na adres dewelopera
-- 🔍 Autocomplete w edytorze produktów i dzienniku posiłków podpowiada teraz również lokalne produkty — nie tylko wbudowaną bazę, ale też produkty, które wcześniej zeskanowałeś lub samodzielnie dodałeś do bazy
+- 🔧 Naprawa zapisu do bazy danych — aplikacja nie traci już połączenia z bazą po dłuższym przebywaniu w tle; eksport kopii zapasowej i zapis wszystkich danych działa niezawodnie
+- 🔧 Usunięto błąd NullPointerException przy próbie odświeżenia połączenia z SQLite — nowe połączenie jest zawsze otwierane od nowa, bez ryzyka użycia martwego uchwytu
 
-### v1.3.1 (2026-06-09)
+### v1.4.5 (2026-06-09)
 
-- ℹ️ Nowy ekran "O aplikacji" w menu — zobacz kod QR, link do repozytorium na GitHub i pełną historię zmian
+- 📊 Nowa infografika dnia — jednym kliknięciem w dzienniku posiłków generujesz profesjonalną grafikę podsumowującą cały dzień: Diet Adherence, compliance, nutrition, energy, badge\
+- ,
+      
+- ,
+      
+- ów osiągnięć — automatycznie przyznawane za zgodność z aktywnymi dietami (Sugar Free, Low Carb, Protein Goal, Heart Friendly i wiele innych) — max 5 najważniejszych na grafice
+- 📤 Przycisk "Udostępnij" w widoku dnia — wygeneruj infografikę i podziel się nią przez systemowy arkusz udostępniania
 
-### v1.3.0 (2026-06-09)
+### v1.4.4 (2026-06-09)
 
-- 🏷️ Badge oceny na infografice posiłku — każdy składnik ma teraz kolorową kropkę i etykietę (KETO GREEN, DOBRY, OSTROŻNIE, NIE PASUJE) pokazującą jak bardzo pasuje do wybranych profili dietetycznych
-- 📊 Średnia ocena całego posiłku — na dole infografiki podsumowanie z emoji i ogólnym wynikiem w skali 0–100
+- 📋 Długie przytrzymanie na produkcie kopiuje go do schowka — działa na ekranie wyniku, historii, liście produktów i w szczegółach posiłku; skopiowany produkt możesz wkleić w edytorze posiłku
+- 📋 Nowy przycisk "Wklej produkt" w edytorze posiłku — jeśli w schowku znajduje się skopiowany produkt, jednym kliknięciem dodajesz go do listy składników wraz z wartościami odżywczymi i oceną
+- ⚖️ Nowe pole "Wielkość porcji (g)" w edytorze produktu — ustaw domyślną gramaturę (np. 30g dla plasterka sera), a przy tworzeniu posiłku gramatura zostanie automatycznie użyta
+- ⚖️ W szczegółach posiłku widać gramaturę każdego produktu — wartości odżywcze są przeliczone na całą porcję, nie na 100g; jeśli produkt ma 150g, zobaczysz kalorie i makro dla całych 150g
 
-### v1.2.0 (2026-06-09)
+### v1.4.3 (2026-06-09)
 
-- 📤 Udostępnianie posiłków jako profesjonalnej infografiki — przytrzymaj posiłek w dzienniku, wybierz "Udostępnij jako grafikę", a aplikacja wygeneruje estetyczną infografikę ze zdjęciem, składnikami i wartościami odżywczymi, którą możesz udostępnić przez standardowy arkusz systemowy
-- 📋 Duplikowanie posiłków — przytrzymaj posiłek w dzienniku, aby go zduplikować jako obecne danie lub wybrać dowolną datę i godzinę---
-_Ostatni build: 2026-06-09 20:30 · v1.4.2_
+- 🔧 Połączenie z bazą danych nie rozłącza się już po długim przebywaniu aplikacji w tle — nawet po całej nocy kalendarz i dane dnia wczytują się bez restartu
+- 🔧 Przycisk "Spróbuj ponownie" przy błędzie bazy danych faktycznie działa — każde kliknięcie ponawia próbę i pokazuje czytelny komunikat, a po 3 nieudanych próbach sugeruje restart aplikacji
+- 🔧 Więcej komunikatów błędów SQLite jest teraz poprawnie wykrywanych i automatycznie naprawianych — połączenie odtwarza się bez ingerencji użytkownika---
+_Ostatni build: 2026-06-10 17:11 · v1.4.7_
