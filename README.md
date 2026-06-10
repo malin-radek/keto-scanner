@@ -14,44 +14,33 @@ Skanujesz etykietę → aplikacja sprawdza skład → dostajesz ocenę ✅ / ⚠
 
 ## 📦 Pobierz
 
-**[⬇️ Pobierz najnowszy APK — v1.4.7](https://github.com/malin-radek/keto-scanner/releases/tag/v1.4.7)**
+**[⬇️ Pobierz najnowszy APK — v1.4.14](https://github.com/malin-radek/keto-scanner/releases/tag/v1.4.14)**
 
 [📋 Wszystkie wydania →](https://github.com/malin-radek/keto-scanner/releases)
 
 ## 📋 Changelog
 
-### v1.5.0 (2026-06-10)
+### v1.4.13 (2026-06-11)
 
-- 🧊 Przebudowa skanowania lodówki — zdjęcia zapisują się NATYCHMIAST po kliknięciu "Gotowe", bez czekania na analizę AI; nawet jeśli AI jest niedostępne, aplikacja działa w pełni
-- 🧊 Analiza AI jest teraz OPCJONALNA — możesz dodać produkty ręcznie, bez używania VisionAI; przycisk "Analizuj przez AI" pojawia się gdy lista produktów jest pusta
-- 🧊 Automatyczny zapis draftu — zdjęcia lodówki są automatycznie zapisywane w bazie zaraz po zrobieniu, więc nic nie ginie nawet jeśli wyjdziesz z ekranu
-- 🧊 Nowy ekran wyniku działa w pełni bez AI — możesz dodać, edytować i zapisać produkty bez uruchamiania rozpoznawania obrazu
+- 📖 88 zewnętrznych przepisów zaimportowanych do bazy — jajka faszerowane, sałatki, sosy, pasty, dania mięsne, zupy i wiele więcej; gotowe do przeglądania w zakładce „Moje przepisy” z tagami diet i kategorii
+- 🏷️ Każdy przepis wyświetla tagi diet (keto, bezglutenowa, wegetariańska itp.) oraz kategorię — ułatwia to dobieranie posiłków do profili dietetycznych
 
-### v1.4.6 (2026-06-10)
+### v1.5.6 (2026-06-10)
 
-- 🔧 Naprawa zapisu do bazy danych — aplikacja nie traci już połączenia z bazą po dłuższym przebywaniu w tle; eksport kopii zapasowej i zapis wszystkich danych działa niezawodnie
-- 🔧 Usunięto błąd NullPointerException przy próbie odświeżenia połączenia z SQLite — nowe połączenie jest zawsze otwierane od nowa, bez ryzyka użycia martwego uchwytu
+- 🖼️ Brandowany splash screen — po uruchomieniu aplikacji od razu pojawia się grafika z logiem i wersją; znika automatycznie gdy aplikacja jest gotowa, dostępna do podglądu w ekranie "O aplikacji"
+- 🖼️ Automatyczny pipeline — wystarczy wrzucić plik .png z nazwą wersji (np. 1.5.0.png) do input_files/splash/, a build-apk.sh sam znajdzie najlepsze dopasowanie i wbuduje grafikę do APK; brak pliku = brak splashu, aplikacja działa normalnie
 
-### v1.4.5 (2026-06-09)
+### v1.5.5 (2026-06-10)
 
-- 📊 Nowa infografika dnia — jednym kliknięciem w dzienniku posiłków generujesz profesjonalną grafikę podsumowującą cały dzień: Diet Adherence, compliance, nutrition, energy, badge\
-- ,
-      
-- ,
-      
-- ów osiągnięć — automatycznie przyznawane za zgodność z aktywnymi dietami (Sugar Free, Low Carb, Protein Goal, Heart Friendly i wiele innych) — max 5 najważniejszych na grafice
-- 📤 Przycisk "Udostępnij" w widoku dnia — wygeneruj infografikę i podziel się nią przez systemowy arkusz udostępniania
+- 🧊 Nowy przycisk "Lodówka" na ekranie głównym — dokładnie taki sam wzór jak przycisk "Jedzenie": szybki dostęp do skanowania lodówki z wyborem modelu AI i sprawdzeniem jego dostępności
+- 🧊 Wybór modelu AI przed pierwszą analizą — na wzór posiłków: "Szybka analiza" (domyślny model) lub "Wybierz model AI" z listą dostępnych modeli i statusem online/offline
 
-### v1.4.4 (2026-06-09)
+### v1.5.4 (2026-06-10)
 
-- 📋 Długie przytrzymanie na produkcie kopiuje go do schowka — działa na ekranie wyniku, historii, liście produktów i w szczegółach posiłku; skopiowany produkt możesz wkleić w edytorze posiłku
-- 📋 Nowy przycisk "Wklej produkt" w edytorze posiłku — jeśli w schowku znajduje się skopiowany produkt, jednym kliknięciem dodajesz go do listy składników wraz z wartościami odżywczymi i oceną
-- ⚖️ Nowe pole "Wielkość porcji (g)" w edytorze produktu — ustaw domyślną gramaturę (np. 30g dla plasterka sera), a przy tworzeniu posiłku gramatura zostanie automatycznie użyta
-- ⚖️ W szczegółach posiłku widać gramaturę każdego produktu — wartości odżywcze są przeliczone na całą porcję, nie na 100g; jeśli produkt ma 150g, zobaczysz kalorie i makro dla całych 150g
+- 🧊 Analiza AI w edytorze lodówki działa teraz jak w posiłkach — przycisk jest zawsze widoczny, można ponawiać rozpoznanie z wyborem modelu (Gemini, ChatGPT, OpenRouter, NVIDIA) i podglądem wyników przed zastąpieniem
+- 🧊 Szczegółowe komunikaty błędów AI z przyciskami diagnostycznymi (kopiuj curl, odpowiedź API, prompt+zdjęcie) — łatwiej zgłaszać problemy i testować modele
 
-### v1.4.3 (2026-06-09)
+### v1.5.3 (2026-06-10)
 
-- 🔧 Połączenie z bazą danych nie rozłącza się już po długim przebywaniu aplikacji w tle — nawet po całej nocy kalendarz i dane dnia wczytują się bez restartu
-- 🔧 Przycisk "Spróbuj ponownie" przy błędzie bazy danych faktycznie działa — każde kliknięcie ponawia próbę i pokazuje czytelny komunikat, a po 3 nieudanych próbach sugeruje restart aplikacji
-- 🔧 Więcej komunikatów błędów SQLite jest teraz poprawnie wykrywanych i automatycznie naprawianych — połączenie odtwarza się bez ingerencji użytkownika---
-_Ostatni build: 2026-06-10 17:11 · v1.4.7_
+- 📱 Znak wodny kodu kreskowego w skanerze jest teraz rysowany jako prawdziwy paskowy kod — nie zawija się na wąskich ekranach i wygląda profesjonalnie na każdym telefonie---
+_Ostatni build: 2026-06-11 00:50 · v1.4.14_
