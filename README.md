@@ -14,33 +14,69 @@ Skanujesz etykietę → aplikacja sprawdza skład → dostajesz ocenę ✅ / ⚠
 
 ## 📦 Pobierz
 
-**[⬇️ Pobierz najnowszy APK — v1.4.14](https://github.com/malin-radek/keto-scanner/releases/tag/v1.4.14)**
+**[⬇️ Pobierz najnowszy APK — v1.5.2](https://github.com/malin-radek/keto-scanner/releases/tag/v1.5.2)**
 
 [📋 Wszystkie wydania →](https://github.com/malin-radek/keto-scanner/releases)
 
 ## 📋 Changelog
 
-### v1.4.13 (2026-06-11)
+### v1.5.0 (2026-06-11)
 
-- 📖 88 zewnętrznych przepisów zaimportowanych do bazy — jajka faszerowane, sałatki, sosy, pasty, dania mięsne, zupy i wiele więcej; gotowe do przeglądania w zakładce „Moje przepisy” z tagami diet i kategorii
-- 🏷️ Każdy przepis wyświetla tagi diet (keto, bezglutenowa, wegetariańska itp.) oraz kategorię — ułatwia to dobieranie posiłków do profili dietetycznych
+- 🔒 Nowy tryb "Rozpoznaj produkt" działa W PEŁNI OFFLINE — ML Kit Text Recognition (OCR) czyta nazwę produktu z opakowania, a Image Labeling rozpoznaje kategorię (jogurt, ser, pomidory itp.)
+- 📸 Automatyczne zapisywanie zdjęcia produktu — przy wyborze z listy zdjęcie jest zapisywane i wyświetlane na karcie wyniku
+- 🧠 Potrójne rozpoznawanie: (1) OCR z opakowania → konkretna nazwa np. "Jogurt Pilos", (2) kategoryzacja obrazu → typ produktu np. "jogurt", (3) Gemini AI jako fallback gdy offline nie da rady
+- 🖼️ Zdjęcia produktów widoczne na kartach wyników, w "Moich produktach" i w szczegółach
+- 📦 Ponad 13 000 produktów w lokalnej bazie — wyszukiwanie offline po nazwie i kategorii, bez potrzeby internetu
+- 🖼️ Brandowany splash screen po uruchomieniu — logo i wersja automatycznie dobierana; dostępny do podglądu w ekranie "O aplikacji"
+- 🧊 Nowy przycisk "Lodówka" na ekranie głównym — szybki dostęp do skanowania lodówki z wyborem modelu AI przed pierwszą analizą
+- 🧊 Analiza AI w edytorze lodówki działa jak w posiłkach — wybór modelu (Gemini, ChatGPT, OpenRouter, NVIDIA) i szczegółowa diagnostyka błędów z przyciskami kopiowania
+- 🧊 Przesuwanie kropki przez długie przytrzymanie (long-press) z auto-panem — gdy palec dosięga krawędzi, zdjęcie delikatnie przesuwa się odsłaniając ukryte obszary
+- 🧊 Skan lodówki można zapisać bez produktów — zdjęcia i typ posiłku wystarczą; kliknięcie w skan otwiera edytor do późniejszej poprawy
+- 🧊 Precyzyjne przybliżanie zdjęcia lodówki i posiłku — płynny pinch-to-zoom z kropkami stałego rozmiaru; tapnięcie w trybie "Dodaj produkt" wskazuje dokładne miejsce
+- 🧊 Przebudowa skanowania lodówki — zdjęcia zapisują się NATYCHMIAST, analiza AI jest OPCJONALNA; automatyczny zapis draftu
+- 🍽️ Nowy przycisk "Dodaj posiłek" w dzienniku — otwiera pustą kartę do ręcznego dodania składników, z opcjonalną analizą AI
+- 🍽️ Dodawanie składników ręcznie bez zdjęcia — przycisk "Dodaj składnik" działa zawsze; "Analizuj przez AI" to osobna, manualna akcja
+- 📱 Znak wodny kodu kreskowego w skanerze jako prawdziwy paskowy kod — nie zawija się na wąskich ekranach
+- 🔢 Numerowane kropki na zdjęciach posiłków — tapnij numer na zdjęciu, a lista przewinie się do odpowiedniego składnika
 
-### v1.5.6 (2026-06-10)
+### v1.4.0 (2026-06-11)
 
-- 🖼️ Brandowany splash screen — po uruchomieniu aplikacji od razu pojawia się grafika z logiem i wersją; znika automatycznie gdy aplikacja jest gotowa, dostępna do podglądu w ekranie "O aplikacji"
-- 🖼️ Automatyczny pipeline — wystarczy wrzucić plik .png z nazwą wersji (np. 1.5.0.png) do input_files/splash/, a build-apk.sh sam znajdzie najlepsze dopasowanie i wbuduje grafikę do APK; brak pliku = brak splashu, aplikacja działa normalnie
+- 📊 Nowa infografika dnia — jednym kliknięciem generujesz profesjonalną grafikę podsumowującą cały dzień: Diet Adherence, compliance, nutrition, energy, 20+ badge\
+- ,
+      
+- Udostępnij
+- ,
+      
+- ,
+      
+- ,
+      
+- Wielkość porcji (g)
+- ,
+      
+- ,
+      
+- ,
+      
+- ,
+      
+- em (🟢🟡🟠🔴) przy każdym produkcie
+- 🍽️ Nowy przycisk "Utwórz posiłek" na ekranie wyniku skanowania — jednym kliknięciem przenosisz dane produktu do dziennika posiłków
+- 🔙 Przycisk wstecz (sprzętowy Android) na szczegółach przepisu i produktu wraca do listy, a nie do ekranu głównego
+- 🔧 Naprawy stabilności bazy danych — aplikacja nie traci połączenia po dłuższym przebywaniu w tle; przycisk "Spróbuj ponownie" przy błędzie faktycznie działa
+- 🔧 Poprawki sumowania wartości odżywczych — podsumowanie posiłku odświeża się po powrocie z edycji; zerowe wartości są prawidłowo wliczane
 
-### v1.5.5 (2026-06-10)
+### v1.3.1 (2026-06-09)
 
-- 🧊 Nowy przycisk "Lodówka" na ekranie głównym — dokładnie taki sam wzór jak przycisk "Jedzenie": szybki dostęp do skanowania lodówki z wyborem modelu AI i sprawdzeniem jego dostępności
-- 🧊 Wybór modelu AI przed pierwszą analizą — na wzór posiłków: "Szybka analiza" (domyślny model) lub "Wybierz model AI" z listą dostępnych modeli i statusem online/offline
+- ℹ️ Nowy ekran "O aplikacji" w menu — zobacz kod QR, link do repozytorium na GitHub i pełną historię zmian
 
-### v1.5.4 (2026-06-10)
+### v1.3.0 (2026-06-09)
 
-- 🧊 Analiza AI w edytorze lodówki działa teraz jak w posiłkach — przycisk jest zawsze widoczny, można ponawiać rozpoznanie z wyborem modelu (Gemini, ChatGPT, OpenRouter, NVIDIA) i podglądem wyników przed zastąpieniem
-- 🧊 Szczegółowe komunikaty błędów AI z przyciskami diagnostycznymi (kopiuj curl, odpowiedź API, prompt+zdjęcie) — łatwiej zgłaszać problemy i testować modele
+- 🏷️ Badge oceny na infografice posiłku — każdy składnik ma teraz kolorową kropkę i etykietę (KETO GREEN, DOBRY, OSTROŻNIE, NIE PASUJE)
+- 📊 Średnia ocena całego posiłku — na dole infografiki podsumowanie z emoji i ogólnym wynikiem w skali 0–100
 
-### v1.5.3 (2026-06-10)
+### v1.2.0 (2026-06-09)
 
-- 📱 Znak wodny kodu kreskowego w skanerze jest teraz rysowany jako prawdziwy paskowy kod — nie zawija się na wąskich ekranach i wygląda profesjonalnie na każdym telefonie---
-_Ostatni build: 2026-06-11 00:50 · v1.4.14_
+- 📤 Udostępnianie posiłków jako profesjonalnej infografiki — przytrzymaj posiłek w dzienniku, wybierz "Udostępnij jako grafikę"
+- 📋 Duplikowanie posiłków — przytrzymaj posiłek w dzienniku, aby go zduplikować jako obecne danie lub wybrać dowolną datę i godzinę---
+_Ostatni build: 2026-06-11 15:39 · v1.5.2_
