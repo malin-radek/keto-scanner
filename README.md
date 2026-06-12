@@ -14,30 +14,33 @@ Skanujesz etykietę → aplikacja sprawdza skład → dostajesz ocenę ✅ / ⚠
 
 ## 📦 Pobierz
 
-**[⬇️ Pobierz najnowszy APK — v1.6.3](https://github.com/malin-radek/keto-scanner/releases/tag/v1.6.3)**
+**[⬇️ Pobierz najnowszy APK — v1.6.4](https://github.com/malin-radek/keto-scanner/releases/tag/v1.6.4)**
 
 [📋 Wszystkie wydania →](https://github.com/malin-radek/keto-scanner/releases)
 
 ## 📋 Changelog
 
-### v1.5.0 (2026-06-11)
+### v1.6.0 (2026-06-12)
 
 - 🔒 Nowy tryb "Rozpoznaj produkt" działa W PEŁNI OFFLINE — ML Kit Text Recognition (OCR) czyta nazwę produktu z opakowania, a Image Labeling rozpoznaje kategorię (jogurt, ser, pomidory itp.)
-- 📸 Automatyczne zapisywanie zdjęcia produktu — przy wyborze z listy zdjęcie jest zapisywane i wyświetlane na karcie wyniku
 - 🧠 Potrójne rozpoznawanie: (1) OCR z opakowania → konkretna nazwa np. "Jogurt Pilos", (2) kategoryzacja obrazu → typ produktu np. "jogurt", (3) Gemini AI jako fallback gdy offline nie da rady
+- 📸 Automatyczne zapisywanie zdjęcia produktu — przy wyborze z listy zdjęcie jest zapisywane i wyświetlane na karcie wyniku
 - 🖼️ Zdjęcia produktów widoczne na kartach wyników, w "Moich produktach" i w szczegółach
 - 📦 Ponad 13 000 produktów w lokalnej bazie — wyszukiwanie offline po nazwie i kategorii, bez potrzeby internetu
-- 🖼️ Brandowany splash screen po uruchomieniu — logo i wersja automatycznie dobierana; dostępny do podglądu w ekranie "O aplikacji"
-- 🧊 Nowy przycisk "Lodówka" na ekranie głównym — szybki dostęp do skanowania lodówki z wyborem modelu AI przed pierwszą analizą
-- 🧊 Analiza AI w edytorze lodówki działa jak w posiłkach — wybór modelu (Gemini, ChatGPT, OpenRouter, NVIDIA) i szczegółowa diagnostyka błędów z przyciskami kopiowania
-- 🧊 Przesuwanie kropki przez długie przytrzymanie (long-press) z auto-panem — gdy palec dosięga krawędzi, zdjęcie delikatnie przesuwa się odsłaniając ukryte obszary
+- 🖼️ Brandowany splash screen z paskiem postępu — logo i wersja automatycznie dobierana; inicjalizacja bazy danych i konfiguracji pokazana krok po kroku
 - 🧊 Skan lodówki można zapisać bez produktów — zdjęcia i typ posiłku wystarczą; kliknięcie w skan otwiera edytor do późniejszej poprawy
+- 🧊 Analiza AI w edytorze lodówki działa jak w posiłkach — wybór modelu (Gemini, ChatGPT, OpenRouter, NVIDIA) i szczegółowa diagnostyka błędów z przyciskami kopiowania
+- 🧊 Nowy przycisk "Lodówka" na ekranie głównym — szybki dostęp do skanowania lodówki z wyborem modelu AI przed pierwszą analizą
+- 🧊 Przesuwanie kropki przez długie przytrzymanie (long-press) z auto-panem — gdy palec dosięga krawędzi, zdjęcie delikatnie przesuwa się odsłaniając ukryte obszary
 - 🧊 Precyzyjne przybliżanie zdjęcia lodówki i posiłku — płynny pinch-to-zoom z kropkami stałego rozmiaru; tapnięcie w trybie "Dodaj produkt" wskazuje dokładne miejsce
 - 🧊 Przebudowa skanowania lodówki — zdjęcia zapisują się NATYCHMIAST, analiza AI jest OPCJONALNA; automatyczny zapis draftu
 - 🍽️ Nowy przycisk "Dodaj posiłek" w dzienniku — otwiera pustą kartę do ręcznego dodania składników, z opcjonalną analizą AI
 - 🍽️ Dodawanie składników ręcznie bez zdjęcia — przycisk "Dodaj składnik" działa zawsze; "Analizuj przez AI" to osobna, manualna akcja
 - 📱 Znak wodny kodu kreskowego w skanerze jako prawdziwy paskowy kod — nie zawija się na wąskich ekranach
 - 🔢 Numerowane kropki na zdjęciach posiłków — tapnij numer na zdjęciu, a lista przewinie się do odpowiedniego składnika
+- ⚠️ Inteligentne alerty dziennych limitów — przy dodawaniu produktu aplikacja ostrzega, jeśli przekroczysz dzienne limity kcal, węgli, tłuszczu, białka i cukru
+- 🔍 Przeglądarka lokalnych etykiet — pełna lista zapisanych produktów z możliwością edycji, usuwania i filtrowania
+- 🥑 System Nutri-Score — każdy produkt otrzymuje europejską ocenę wartości odżywczej (A–E) jako uzupełnienie oceny keto
 
 ### v1.4.0 (2026-06-11)
 
@@ -79,4 +82,4 @@ Skanujesz etykietę → aplikacja sprawdza skład → dostajesz ocenę ✅ / ⚠
 
 - 📤 Udostępnianie posiłków jako profesjonalnej infografiki — przytrzymaj posiłek w dzienniku, wybierz "Udostępnij jako grafikę"
 - 📋 Duplikowanie posiłków — przytrzymaj posiłek w dzienniku, aby go zduplikować jako obecne danie lub wybrać dowolną datę i godzinę---
-_Ostatni build: 2026-06-12 13:34 · v1.6.3_
+_Ostatni build: 2026-06-12 14:33 · v1.6.4_
