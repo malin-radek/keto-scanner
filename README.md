@@ -14,7 +14,7 @@ Skanujesz etykietę → aplikacja sprawdza skład → dostajesz ocenę ✅ / ⚠
 
 ## 📦 Pobierz
 
-**[⬇️ Pobierz najnowszy APK — v1.6.17](https://github.com/malin-radek/keto-scanner/releases/tag/v1.6.17)**
+**[⬇️ Pobierz najnowszy APK — v1.6.20](https://github.com/malin-radek/keto-scanner/releases/tag/v1.6.20)**
 
 [📋 Wszystkie wydania →](https://github.com/malin-radek/keto-scanner/releases)
 
@@ -82,4 +82,4 @@ Skanujesz etykietę → aplikacja sprawdza skład → dostajesz ocenę ✅ / ⚠
 
 - 📤 Udostępnianie posiłków jako profesjonalnej infografiki — przytrzymaj posiłek w dzienniku, wybierz "Udostępnij jako grafikę"
 - 📋 Duplikowanie posiłków — przytrzymaj posiłek w dzienniku, aby go zduplikować jako obecne danie lub wybrać dowolną datę i godzinę---
-_Ostatni build: 2026-06-17 13:16 · v1.6.17_
+_Ostatni build: 2026-06-20 02:17 · v1.6.20_
