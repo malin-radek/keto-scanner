@@ -22,7 +22,7 @@ Skanujesz etykietę → aplikacja sprawdza skład → dostajesz ocenę ✅ / ⚠
 
 ### v1.7.0 (2026-06-24)
 
-- ⚖️ Obsługa wagi kuchennej HOTO — waż składniki bezpośrednio podczas budowania posiłku; waga pokazuje się na kamerze w czasie rzeczywistym
+- ⚖️ Obsługa wagi kuchennej HOTO — waż składniki bezpośrednio podczas budowania posiłku; waga pokazuje się na kamerze w czasie rzeczywistym. WCIAZ NIE DZIALA!!
 - ⚖️ Automatyczne uzupełnianie wagi składnika — gdy waga HOTO jest stabilna, gramatura sama wpisuje się w edytorze
 - ⚖️ Przycisk ⚖️ przy każdym składniku — jednym kliknięciem ustawiasz wagę z HOTO bez ręcznego wpisywania
 - ⚖️ Dedykowany ekran wagi kuchennej z karuzelą cyfr — osobny widok do ważenia bez skanowania
