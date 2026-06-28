@@ -14,7 +14,7 @@ Skanujesz etykietę → aplikacja sprawdza skład → dostajesz ocenę ✅ / ⚠
 
 ## 📦 Pobierz
 
-**[⬇️ Pobierz najnowszy APK — v1.7.7](https://github.com/malin-radek/keto-scanner/releases/tag/v1.7.7)**
+**[⬇️ Pobierz najnowszy APK — v1.7.8](https://github.com/malin-radek/keto-scanner/releases/tag/v1.7.8)**
 
 [📋 Wszystkie wydania →](https://github.com/malin-radek/keto-scanner/releases)
 
@@ -22,7 +22,7 @@ Skanujesz etykietę → aplikacja sprawdza skład → dostajesz ocenę ✅ / ⚠
 
 ### v1.7.0 (2026-06-24)
 
-- ⚖️ Obsługa wagi kuchennej HOTO — waż składniki bezpośrednio podczas budowania posiłku; waga pokazuje się na kamerze w czasie rzeczywistym. WCIAZ NIE DZIALA!!
+- ⚖️ Obsługa wagi kuchennej HOTO — waż składniki bezpośrednio podczas budowania posiłku; waga pokazuje się na kamerze w czasie rzeczywistym
 - ⚖️ Automatyczne uzupełnianie wagi składnika — gdy waga HOTO jest stabilna, gramatura sama wpisuje się w edytorze
 - ⚖️ Przycisk ⚖️ przy każdym składniku — jednym kliknięciem ustawiasz wagę z HOTO bez ręcznego wpisywania
 - ⚖️ Dedykowany ekran wagi kuchennej z karuzelą cyfr — osobny widok do ważenia bez skanowania
@@ -87,4 +87,4 @@ Skanujesz etykietę → aplikacja sprawdza skład → dostajesz ocenę ✅ / ⚠
 
 - 🏷️ Badge oceny na infografice posiłku — każdy składnik ma teraz kolorową kropkę i etykietę (KETO GREEN, DOBRY, OSTROŻNIE, NIE PASUJE)
 - 📊 Średnia ocena całego posiłku — na dole infografiki podsumowanie z emoji i ogólnym wynikiem w skali 0–100---
-_Ostatni build: 2026-06-27 01:28 · v1.7.7_
+_Ostatni build: 2026-06-29 01:49 · v1.7.8_
