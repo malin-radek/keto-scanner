@@ -14,7 +14,7 @@ Skanujesz etykietę → aplikacja sprawdza skład → dostajesz ocenę ✅ / ⚠
 
 ## 📦 Pobierz
 
-**[⬇️ Pobierz najnowszy APK — v1.8.1](https://github.com/malin-radek/keto-scanner/releases/tag/v1.8.1)**
+**[⬇️ Pobierz najnowszy APK — v1.8.4](https://github.com/malin-radek/keto-scanner/releases/tag/v1.8.4)**
 
 [📋 Wszystkie wydania →](https://github.com/malin-radek/keto-scanner/releases)
 
@@ -35,7 +35,7 @@ Skanujesz etykietę → aplikacja sprawdza skład → dostajesz ocenę ✅ / ⚠
 - 📦 Ponad 13 000 produktów w lokalnej bazie — wyszukiwanie offline po nazwie i kategorii, bez potrzeby internetu
 - 🖼️ Brandowany splash screen z paskiem postępu — logo i wersja automatycznie dobierana; inicjalizacja bazy danych i konfiguracji pokazana krok po kroku
 - 🧊 Skan lodówki można zapisać bez produktów — zdjęcia i typ posiłku wystarczą; kliknięcie w skan otwiera edytor do późniejszej poprawy
-- 🧊 Analiza AI w edytorze lodówki działa jak w posiłkach — wybór modelu (Gemini, ChatGPT, OpenRouter, NVIDIA) i szczegółowa diagnostyka błędów z przyciskami kopiowania
+- 🧊 Analiza AI w edytorze lodówki działa jak w posiłkach — wybór modelu (Gemini, OpenAI, OpenRouter, NVIDIA) i szczegółowa diagnostyka błędów z przyciskami kopiowania
 - 🧊 Nowy przycisk "Lodówka" na ekranie głównym — szybki dostęp do skanowania lodówki z wyborem modelu AI przed pierwszą analizą
 - 🧊 Przesuwanie kropki przez długie przytrzymanie (long-press) z auto-panem — gdy palec dosięga krawędzi, zdjęcie delikatnie przesuwa się odsłaniając ukryte obszary
 - 🧊 Precyzyjne przybliżanie zdjęcia lodówki i posiłku — płynny pinch-to-zoom z kropkami stałego rozmiaru; tapnięcie w trybie "Dodaj produkt" wskazuje dokładne miejsce
@@ -83,4 +83,4 @@ Skanujesz etykietę → aplikacja sprawdza skład → dostajesz ocenę ✅ / ⚠
 
 - 🏷️ Badge oceny na infografice posiłku — każdy składnik ma teraz kolorową kropkę i etykietę (KETO GREEN, DOBRY, OSTROŻNIE, NIE PASUJE)
 - 📊 Średnia ocena całego posiłku — na dole infografiki podsumowanie z emoji i ogólnym wynikiem w skali 0–100---
-_Ostatni build: 2026-07-02 15:52 · v1.8.1_
+_Ostatni build: 2026-07-14 21:50 · v1.8.4_
