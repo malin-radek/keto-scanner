@@ -14,7 +14,7 @@ Skanujesz etykietę → aplikacja sprawdza skład → dostajesz ocenę ✅ / ⚠
 
 ## 📦 Pobierz
 
-**[⬇️ Pobierz najnowszy APK — v1.8.10](https://github.com/malin-radek/keto-scanner/releases/tag/v1.8.10)**
+**[⬇️ Pobierz najnowszy APK — v1.8.16](https://github.com/malin-radek/keto-scanner/releases/tag/v1.8.16)**
 
 [📋 Wszystkie wydania →](https://github.com/malin-radek/keto-scanner/releases)
 
@@ -83,4 +83,4 @@ Skanujesz etykietę → aplikacja sprawdza skład → dostajesz ocenę ✅ / ⚠
 
 - 🏷️ Badge oceny na infografice posiłku — każdy składnik ma teraz kolorową kropkę i etykietę (KETO GREEN, DOBRY, OSTROŻNIE, NIE PASUJE)
 - 📊 Średnia ocena całego posiłku — na dole infografiki podsumowanie z emoji i ogólnym wynikiem w skali 0–100---
-_Ostatni build: 2026-07-22 23:46 · v1.8.10_
+_Ostatni build: 2026-07-23 02:14 · v1.8.16_
