@@ -1,4 +1,18 @@
-# 🥑 Keto Scanner
+# 🥑 Ketivo - więcej niż dieta, prostsze codzienne wybory
+
+Ketivo pomaga lepiej rozumieć to, co jesz, i wygodnie prowadzić swoją drogę na keto, low carb lub redukcji. W jednym miejscu masz produkty, posiłki, makroskładniki, historię wyborów i narzędzia, które pomagają trzymać się własnego celu bez obsesyjnego liczenia.
+
+Sprawdzaj wartości odżywcze i skład produktów, zapisuj posiłki, buduj własne dania oraz obserwuj, jak Twoje codzienne decyzje wpływają na bilans kalorii i makro. Możesz dodawać produkty ręcznie, skorzystać ze zdjęcia etykiety lub kodu kreskowego, a także tworzyć posiłki ze składników, które masz pod ręką.
+
+Ketivo wspiera również planowanie: pomaga odkrywać przepisy, wykorzystywać produkty z lodówki i utrzymywać porządek w swojej bazie produktów oraz posiłków. Jeśli korzystasz z wagi, aplikacja pozwala też wygodniej śledzić wybrane pomiary i postępy.
+
+To narzędzie stworzone dla osób, które chcą jeść bardziej świadomie, ale nie chcą, aby dieta przejęła kontrolę nad ich dniem. Bez presji. W Twoim tempie. Na Twoich zasadach.
+
+Rozwijam Ketivo niezależnie, krok po kroku, na podstawie realnych potrzeb użytkowników. Możesz spokojnie wypróbować aplikację przez 7 dni z pełnym dostępem do funkcji Premium.
+
+Jeśli uznasz, że pomaga Ci w codziennych wyborach, możesz przedłużyć dostęp i wesprzeć dalszy rozwój projektu. Każda wpłata pozwala rozwijać analizę produktów, historię posiłków, przepisy oraz kolejne funkcje, które mają ułatwiać świadome odżywianie.
+
+Dziękuję, że dajesz Ketivo szansę.
 
 Aplikacja mobilna do skanowania i oceny produktów spożywczych pod kątem wybranej diety.
 Skanujesz etykietę → aplikacja sprawdza skład → dostajesz ocenę ✅ / ⚠️ / ❌
