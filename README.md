@@ -14,11 +14,15 @@ Skanujesz etykietę → aplikacja sprawdza skład → dostajesz ocenę ✅ / ⚠
 
 ## 📦 Pobierz
 
-**[⬇️ Pobierz najnowszy APK — v1.8.28](https://github.com/malin-radek/keto-scanner/releases/tag/v1.8.28)**
+**[⬇️ Pobierz najnowszy APK — v1.8.30](https://github.com/malin-radek/keto-scanner/releases/tag/v1.8.30)**
 
 [📋 Wszystkie wydania →](https://github.com/malin-radek/keto-scanner/releases)
 
 ## 📋 Changelog
+
+### v1.8.0 (2026-08-18)
+
+- 🔗 System poleceń — w „O aplikacji” znajdziesz własny kod QR z linkiem polecającym (ketivo.malin.zone); udostępnij go znajomemu, a gdy zainstaluje Ketivo i kupi plan, otrzymujesz dni bonusowe do dostępu (Influencer: do +15 dni w cyklu, zaproszony: jednorazowo +5 dni)
 
 ### v1.7.0 (2026-06-24)
 
@@ -77,10 +81,5 @@ Skanujesz etykietę → aplikacja sprawdza skład → dostajesz ocenę ✅ / ⚠
 
 ### v1.3.1 (2026-06-09)
 
-- ℹ️ Nowy ekran "O aplikacji" w menu — zobacz kod QR, link do repozytorium na GitHub i pełną historię zmian
-
-### v1.3.0 (2026-06-09)
-
-- 🏷️ Badge oceny na infografice posiłku — każdy składnik ma teraz kolorową kropkę i etykietę (KETO GREEN, DOBRY, OSTROŻNIE, NIE PASUJE)
-- 📊 Średnia ocena całego posiłku — na dole infografiki podsumowanie z emoji i ogólnym wynikiem w skali 0–100---
-_Ostatni build: 2026-08-17 02:34 · v1.8.28_
+- ℹ️ Nowy ekran "O aplikacji" w menu — zobacz kod QR, link do repozytorium na GitHub i pełną historię zmian---
+_Ostatni build: 2026-08-20 00:53 · v1.8.30_
