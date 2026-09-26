@@ -14,7 +14,7 @@ Skanujesz etykietę → aplikacja sprawdza skład → dostajesz ocenę ✅ / ⚠
 
 ## 📦 Pobierz
 
-**[⬇️ Pobierz najnowszy APK — v1.12.6](https://github.com/malin-radek/keto-scanner/releases/tag/v1.12.6)**
+**[⬇️ Pobierz najnowszy APK — v1.12.8](https://github.com/malin-radek/keto-scanner/releases/tag/v1.12.8)**
 
 [📋 Wszystkie wydania →](https://github.com/malin-radek/keto-scanner/releases)
 
@@ -41,4 +41,4 @@ Skanujesz etykietę → aplikacja sprawdza skład → dostajesz ocenę ✅ / ⚠
 - 🧠 AI rzadziej zgaduje nazwę dania — nowe reguły w prompcie wymuszają wypisywanie składników zamiast wymyślania potraw (np. "pomidorki koktajlowe" zamiast "sushi")
 - ⚖️ Wielkość porcji w opisie wyniku AI — opis każdego składnika zawiera teraz informację o szacunkowej porcji (np. "pomidorki koktajlowe, porcja ok. 150g")
 - 🔢 Płynniejsza animacja cyfr na wadze ciała (AnimatedNumber) — karuzela cyfr w trzech rozmiarach---
-_Ostatni build: 2026-09-24 21:23 · v1.12.6_
+_Ostatni build: 2026-09-26 19:21 · v1.12.8_
