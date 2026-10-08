@@ -14,11 +14,15 @@ Skanujesz etykietę → aplikacja sprawdza skład → dostajesz ocenę ✅ / ⚠
 
 ## 📦 Pobierz
 
-**[⬇️ Pobierz najnowszy APK — v1.12.10](https://github.com/malin-radek/keto-scanner/releases/tag/v1.12.10)**
+**[⬇️ Pobierz najnowszy APK — v1.13.1](https://github.com/malin-radek/keto-scanner/releases/tag/v1.13.1)**
 
 [📋 Wszystkie wydania →](https://github.com/malin-radek/keto-scanner/releases)
 
 ## 📋 Changelog
+
+### v1.13.0 (2026-10-08)
+
+- Pewniejsze pobieranie aktualizacji aplikacji, także po wygaszeniu ekranu lub ponownym uruchomieniu aplikacji.
 
 ### v1.12.0 (2026-09-14)
 
@@ -34,11 +38,5 @@ Skanujesz etykietę → aplikacja sprawdza skład → dostajesz ocenę ✅ / ⚠
 
 ### v1.8.0 (2026-08-18)
 
-- 🔗 System poleceń — w „O aplikacji” znajdziesz własny kod QR z linkiem polecającym (ketivo.malin.zone); udostępnij go znajomemu, a gdy zainstaluje Ketivo i kupi plan, otrzymujesz dni bonusowe do dostępu (Influencer: do +15 dni w cyklu, zaproszony: jednorazowo +5 dni)
-
-### v1.7.0 (2026-06-24)
-
-- 🧠 AI rzadziej zgaduje nazwę dania — nowe reguły w prompcie wymuszają wypisywanie składników zamiast wymyślania potraw (np. "pomidorki koktajlowe" zamiast "sushi")
-- ⚖️ Wielkość porcji w opisie wyniku AI — opis każdego składnika zawiera teraz informację o szacunkowej porcji (np. "pomidorki koktajlowe, porcja ok. 150g")
-- 🔢 Płynniejsza animacja cyfr na wadze ciała (AnimatedNumber) — karuzela cyfr w trzech rozmiarach---
-_Ostatni build: 2026-10-08 00:17 · v1.12.10_
+- 🔗 System poleceń — w „O aplikacji” znajdziesz własny kod QR z linkiem polecającym (ketivo.malin.zone); udostępnij go znajomemu, a gdy zainstaluje Ketivo i kupi plan, otrzymujesz dni bonusowe do dostępu (Influencer: do +15 dni w cyklu, zaproszony: jednorazowo +5 dni)---
+_Ostatni build: 2026-10-08 19:37 · v1.13.1_
